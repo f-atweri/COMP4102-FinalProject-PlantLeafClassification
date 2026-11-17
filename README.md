@@ -56,3 +56,15 @@ class in `model_train.csv` and predicts that class for every validation image.
 it reports accuracy and recall for each class. recall is the fraction of a
 class's images correctly identified. this baseline does not look at image
 pixels and it shows why accuracy alone is not enough.
+
+## fifth step: preparing images for a CNN
+
+the script reads image paths and labels from `model_train.csv` and
+`validation.csv`, turns each image into RGB, resizes it to 128 by 128 pixels,
+and converts it to a tensor with pixel values between 0 and 1. it maps the
+class names to numbers and prints one batch from each split. A batch shape of
+`(8, 3, 128, 128)` means eight images, three colour channels, and 128 by 128
+pixels.
+
+
+## next step is maybe building a small CNN?
