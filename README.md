@@ -2,10 +2,10 @@ Problem: A leaf can show visible symptoms such as spots, discoloration, or textu
 
 first step: inspecting the data:
 
+
 Total images: 3171
 
 Class                            Images    Share
-------------------------------------------------
 Apple___Apple_scab                  630   19.9%
 Apple___Black_rot                   621   19.6%
 Apple___Cedar_apple_rust            275    8.7%
