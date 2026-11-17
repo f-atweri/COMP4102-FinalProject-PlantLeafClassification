@@ -39,3 +39,20 @@ information stops the script instead of silently assigning an image.
 the training set is to develop the model and save the test set for
 final evaluation. if we need validation data for tuning, it must also be split
 by leaf group from the training set.
+
+## foruth step: validation and a simple baseline
+
+`python .\prepare_validation.py` to split `train.csv` into
+`model_train.csv` and `validation.csv`. it assigns about 20% of each class's
+leaf groups to validation using a fixed seed and it does not change `test.csv`.
+running it again replaces the two generated CSV files.
+
+use `model_train.csv` to train models, `validation.csv` to compare or tune
+them, and `test.csv` only for final evaluation. `train.csv` remains the
+original pool used to create the training and validation sets.
+
+run `python .\baseline.py` for a simple reference: it chooses the most common
+class in `model_train.csv` and predicts that class for every validation image.
+it reports accuracy and recall for each class. recall is the fraction of a
+class's images correctly identified. this baseline does not look at image
+pixels and it shows why accuracy alone is not enough.
