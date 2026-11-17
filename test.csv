@@ -1,0 +1,641 @@
+image_path,label,leaf_id
+data/PlantVillage-apple/raw/color/Apple___Apple_scab/41c2bb79-44fb-48f4-864f-eec35e3442f5___FREC_Scab 2931.JPG,Apple___Apple_scab,Apple___Apple_scab:::6.0
+data/PlantVillage-apple/raw/color/Apple___Apple_scab/9e399a72-a81f-4a43-8542-ebc4e96ba346___FREC_Scab 2930.JPG,Apple___Apple_scab,Apple___Apple_scab:::6.0
+data/PlantVillage-apple/raw/color/Apple___Apple_scab/c563cf1c-da17-4c03-b3e8-b306334e0270___FREC_Scab 2933.JPG,Apple___Apple_scab,Apple___Apple_scab:::6.0
+data/PlantVillage-apple/raw/color/Apple___Apple_scab/dbf66e2f-cf58-418c-9dcd-14254af3ddb1___FREC_Scab 2934.JPG,Apple___Apple_scab,Apple___Apple_scab:::6.0
+data/PlantVillage-apple/raw/color/Apple___Apple_scab/ef91867f-33c5-4063-9783-44fd47238fe0___FREC_Scab 2935.JPG,Apple___Apple_scab,Apple___Apple_scab:::6.0
+data/PlantVillage-apple/raw/color/Apple___Apple_scab/fc9c12dc-1bdb-402d-ada8-dc1b33c84d5b___FREC_Scab 2932.JPG,Apple___Apple_scab,Apple___Apple_scab:::6.0
+data/PlantVillage-apple/raw/color/Apple___Apple_scab/0261a6e4-21f8-481a-8827-b674e6955644___FREC_Scab 3055.JPG,Apple___Apple_scab,Apple___Apple_scab:::28.0
+data/PlantVillage-apple/raw/color/Apple___Apple_scab/895252c3-5047-4e87-8e13-2cdd765f3e0a___FREC_Scab 3056.JPG,Apple___Apple_scab,Apple___Apple_scab:::28.0
+data/PlantVillage-apple/raw/color/Apple___Apple_scab/99e03a3c-c68f-4648-af09-877c57d6b115___FREC_Scab 3054.JPG,Apple___Apple_scab,Apple___Apple_scab:::28.0
+data/PlantVillage-apple/raw/color/Apple___Apple_scab/a0fd13e3-e36c-4386-beb2-ec6a587bfd70___FREC_Scab 3053.JPG,Apple___Apple_scab,Apple___Apple_scab:::28.0
+data/PlantVillage-apple/raw/color/Apple___Apple_scab/4940cd87-695e-4f4d-8a45-5490812447cc___FREC_Scab 3044.JPG,Apple___Apple_scab,Apple___Apple_scab:::26.0
+data/PlantVillage-apple/raw/color/Apple___Apple_scab/5990ed9f-ffe8-4622-bd26-e536ea5e1109___FREC_Scab 3042.JPG,Apple___Apple_scab,Apple___Apple_scab:::26.0
+data/PlantVillage-apple/raw/color/Apple___Apple_scab/8a212787-77fb-40dc-a028-92d5ff2d6c7c___FREC_Scab 3043.JPG,Apple___Apple_scab,Apple___Apple_scab:::26.0
+data/PlantVillage-apple/raw/color/Apple___Apple_scab/96f7f6b4-4dd6-4887-b6b2-89449271274f___FREC_Scab 3047.JPG,Apple___Apple_scab,Apple___Apple_scab:::26.0
+data/PlantVillage-apple/raw/color/Apple___Apple_scab/d1773f0b-f049-4bb1-b13f-d33b96078ab3___FREC_Scab 3046.JPG,Apple___Apple_scab,Apple___Apple_scab:::26.0
+data/PlantVillage-apple/raw/color/Apple___Apple_scab/dce5b716-54ad-420c-911c-476b838c4be9___FREC_Scab 3045.JPG,Apple___Apple_scab,Apple___Apple_scab:::26.0
+data/PlantVillage-apple/raw/color/Apple___Apple_scab/320dff9e-6d59-4bec-9e7c-930444343e3b___FREC_Scab 3398.JPG,Apple___Apple_scab,Apple___Apple_scab:::89.0
+data/PlantVillage-apple/raw/color/Apple___Apple_scab/67c7e9f9-19ca-4fb5-a2b1-8efdeed7b9e2___FREC_Scab 3397.JPG,Apple___Apple_scab,Apple___Apple_scab:::89.0
+data/PlantVillage-apple/raw/color/Apple___Apple_scab/7966ec90-1939-40ea-a4f7-99aca4fe8af5___FREC_Scab 3402.JPG,Apple___Apple_scab,Apple___Apple_scab:::89.0
+data/PlantVillage-apple/raw/color/Apple___Apple_scab/98f72edf-a354-43de-8734-a697d8cdd3f5___FREC_Scab 3400.JPG,Apple___Apple_scab,Apple___Apple_scab:::89.0
+data/PlantVillage-apple/raw/color/Apple___Apple_scab/b4b9c80a-f741-416d-a7e6-6d9566ea731e___FREC_Scab 3399.JPG,Apple___Apple_scab,Apple___Apple_scab:::89.0
+data/PlantVillage-apple/raw/color/Apple___Apple_scab/c270319e-61d4-4376-a3e8-b159ff712dd4___FREC_Scab 3401.JPG,Apple___Apple_scab,Apple___Apple_scab:::89.0
+data/PlantVillage-apple/raw/color/Apple___Apple_scab/c71e8ee2-8865-4e45-be5a-3303c17337bd___FREC_Scab 3403.JPG,Apple___Apple_scab,Apple___Apple_scab:::89.0
+data/PlantVillage-apple/raw/color/Apple___Apple_scab/0d8d5b80-962d-4381-8d3b-9eca3f2f1bb0___FREC_Scab 3449.JPG,Apple___Apple_scab,Apple___Apple_scab:::97.0
+data/PlantVillage-apple/raw/color/Apple___Apple_scab/1a41bab0-45e0-4dda-a798-9bf4a998f1b6___FREC_Scab 3450.JPG,Apple___Apple_scab,Apple___Apple_scab:::97.0
+data/PlantVillage-apple/raw/color/Apple___Apple_scab/4b4b59d5-3c6d-4ce5-b349-616fecb850ff___FREC_Scab 3447.JPG,Apple___Apple_scab,Apple___Apple_scab:::97.0
+data/PlantVillage-apple/raw/color/Apple___Apple_scab/745cfcfa-5b39-46ad-8c40-96086e71f6ee___FREC_Scab 3448.JPG,Apple___Apple_scab,Apple___Apple_scab:::97.0
+data/PlantVillage-apple/raw/color/Apple___Apple_scab/7f7b25d4-f895-4f8e-80ad-db72a9b19a2e___FREC_Scab 3451.JPG,Apple___Apple_scab,Apple___Apple_scab:::97.0
+data/PlantVillage-apple/raw/color/Apple___Apple_scab/c0b4c09e-80d2-4f4e-a87f-eecd09f656fd___FREC_Scab 3452.JPG,Apple___Apple_scab,Apple___Apple_scab:::97.0
+data/PlantVillage-apple/raw/color/Apple___Apple_scab/edb3d65b-533a-490a-a3fd-46e686d3e690___FREC_Scab 3453.JPG,Apple___Apple_scab,Apple___Apple_scab:::97.0
+data/PlantVillage-apple/raw/color/Apple___Apple_scab/fed05dda-1d4d-4de4-bbf2-517640b3c999___FREC_Scab 3446.JPG,Apple___Apple_scab,Apple___Apple_scab:::97.0
+data/PlantVillage-apple/raw/color/Apple___Apple_scab/023123cb-7b69-4c9f-a521-766d7c8543bb___FREC_Scab 3487.JPG,Apple___Apple_scab,Apple___Apple_scab:::102.0
+data/PlantVillage-apple/raw/color/Apple___Apple_scab/34c2823b-d1c5-4bd8-a5a7-74bdef959e10___FREC_Scab 3484.JPG,Apple___Apple_scab,Apple___Apple_scab:::102.0
+data/PlantVillage-apple/raw/color/Apple___Apple_scab/38e76f0a-63cb-460a-b0fa-f20e561dc2c0___FREC_Scab 3481.JPG,Apple___Apple_scab,Apple___Apple_scab:::102.0
+data/PlantVillage-apple/raw/color/Apple___Apple_scab/5345e6fb-1829-457f-ac86-6683d762c9ea___FREC_Scab 3482.JPG,Apple___Apple_scab,Apple___Apple_scab:::102.0
+data/PlantVillage-apple/raw/color/Apple___Apple_scab/64e20068-6685-4a30-a812-fd817117d628___FREC_Scab 3485.JPG,Apple___Apple_scab,Apple___Apple_scab:::102.0
+data/PlantVillage-apple/raw/color/Apple___Apple_scab/83b1935d-f1fc-4b9f-876e-c0dbbb2fcb03___FREC_Scab 3486.JPG,Apple___Apple_scab,Apple___Apple_scab:::102.0
+data/PlantVillage-apple/raw/color/Apple___Apple_scab/f50d9c8b-ffd4-47aa-aac1-46762c0b1a26___FREC_Scab 3483.JPG,Apple___Apple_scab,Apple___Apple_scab:::102.0
+data/PlantVillage-apple/raw/color/Apple___Apple_scab/ae035eb1-0214-4964-b018-14fca52713fc___FREC_Scab 3166.JPG,Apple___Apple_scab,Apple___Apple_scab:::50.0
+data/PlantVillage-apple/raw/color/Apple___Apple_scab/d01086a5-c14e-424a-8825-47343752c0a0___FREC_Scab 3170.JPG,Apple___Apple_scab,Apple___Apple_scab:::50.0
+data/PlantVillage-apple/raw/color/Apple___Apple_scab/ecbac6b5-e07f-4a0d-a670-1d3b97f01104___FREC_Scab 3168.JPG,Apple___Apple_scab,Apple___Apple_scab:::50.0
+data/PlantVillage-apple/raw/color/Apple___Apple_scab/f887b059-f797-442d-b2b6-a9cab0f76f43___FREC_Scab 3169.JPG,Apple___Apple_scab,Apple___Apple_scab:::50.0
+data/PlantVillage-apple/raw/color/Apple___Apple_scab/f8e48799-c566-4b86-b7c8-a0e290fb7f25___FREC_Scab 3167.JPG,Apple___Apple_scab,Apple___Apple_scab:::50.0
+data/PlantVillage-apple/raw/color/Apple___Apple_scab/32454154-edbf-464f-8097-e99a3d9a15af___FREC_Scab 2936.JPG,Apple___Apple_scab,Apple___Apple_scab:::7.0
+data/PlantVillage-apple/raw/color/Apple___Apple_scab/6dd6a502-d5b3-4f3d-9231-e7dbd7b54908___FREC_Scab 2937.JPG,Apple___Apple_scab,Apple___Apple_scab:::7.0
+data/PlantVillage-apple/raw/color/Apple___Apple_scab/ba0c02a0-3597-44e5-826d-00398a68d65b___FREC_Scab 2939.JPG,Apple___Apple_scab,Apple___Apple_scab:::7.0
+data/PlantVillage-apple/raw/color/Apple___Apple_scab/c4a3c215-aa1e-4d1c-b545-1ab2b15812fe___FREC_Scab 2938.JPG,Apple___Apple_scab,Apple___Apple_scab:::7.0
+data/PlantVillage-apple/raw/color/Apple___Apple_scab/0d3c0790-7833-470b-ac6e-94d0a3bf3e7c___FREC_Scab 2959.JPG,Apple___Apple_scab,Apple___Apple_scab:::11.0
+data/PlantVillage-apple/raw/color/Apple___Apple_scab/270dd6be-95f4-4fd1-8423-b698663b3f72___FREC_Scab 2954.JPG,Apple___Apple_scab,Apple___Apple_scab:::11.0
+data/PlantVillage-apple/raw/color/Apple___Apple_scab/321c7135-853f-444d-9952-a893e660d966___FREC_Scab 2958.JPG,Apple___Apple_scab,Apple___Apple_scab:::11.0
+data/PlantVillage-apple/raw/color/Apple___Apple_scab/40df2c3f-673e-4da8-a172-65fd5a656c1d___FREC_Scab 2957.JPG,Apple___Apple_scab,Apple___Apple_scab:::11.0
+data/PlantVillage-apple/raw/color/Apple___Apple_scab/5c0af4dd-f185-4fc9-ae2c-a697a235d660___FREC_Scab 2955.JPG,Apple___Apple_scab,Apple___Apple_scab:::11.0
+data/PlantVillage-apple/raw/color/Apple___Apple_scab/f0963f8c-18f5-42db-853a-8d52d40d8c07___FREC_Scab 2956.JPG,Apple___Apple_scab,Apple___Apple_scab:::11.0
+data/PlantVillage-apple/raw/color/Apple___Apple_scab/40a5e87c-ee32-4d67-9b28-926e94638a1d___FREC_Scab 3251.JPG,Apple___Apple_scab,Apple___Apple_scab:::64.0
+data/PlantVillage-apple/raw/color/Apple___Apple_scab/470bece4-7eb2-4ec1-917a-278559afe463___FREC_Scab 3250.JPG,Apple___Apple_scab,Apple___Apple_scab:::64.0
+data/PlantVillage-apple/raw/color/Apple___Apple_scab/6b66d8dd-af9f-43b5-a43f-6e4c6d64bede___FREC_Scab 3248.JPG,Apple___Apple_scab,Apple___Apple_scab:::64.0
+data/PlantVillage-apple/raw/color/Apple___Apple_scab/a3824376-87d9-464c-b78e-e35d029d43f2___FREC_Scab 3249.JPG,Apple___Apple_scab,Apple___Apple_scab:::64.0
+data/PlantVillage-apple/raw/color/Apple___Apple_scab/3dd3d59c-be2a-4f29-8fa1-d4f37d7fb894___FREC_Scab 3412.JPG,Apple___Apple_scab,Apple___Apple_scab:::91.0
+data/PlantVillage-apple/raw/color/Apple___Apple_scab/43f68711-decd-4831-bf5c-99fa40abe339___FREC_Scab 3413.JPG,Apple___Apple_scab,Apple___Apple_scab:::91.0
+data/PlantVillage-apple/raw/color/Apple___Apple_scab/5cd3df15-31a2-4076-9d1a-8735fa1dccdf___FREC_Scab 3410.JPG,Apple___Apple_scab,Apple___Apple_scab:::91.0
+data/PlantVillage-apple/raw/color/Apple___Apple_scab/88079400-60e9-4317-b917-0bee6c8c16f5___FREC_Scab 3411.JPG,Apple___Apple_scab,Apple___Apple_scab:::91.0
+data/PlantVillage-apple/raw/color/Apple___Apple_scab/a5ed05d8-9815-41b7-b481-332e48cfde56___FREC_Scab 3415.JPG,Apple___Apple_scab,Apple___Apple_scab:::91.0
+data/PlantVillage-apple/raw/color/Apple___Apple_scab/b2567b00-d781-4177-9c3f-6a7b9f47941f___FREC_Scab 3414.JPG,Apple___Apple_scab,Apple___Apple_scab:::91.0
+data/PlantVillage-apple/raw/color/Apple___Apple_scab/7b17fb27-2af4-4c90-b499-0c0658ba7262___FREC_Scab 2943.JPG,Apple___Apple_scab,Apple___Apple_scab:::8.0
+data/PlantVillage-apple/raw/color/Apple___Apple_scab/7bc2b2d5-b2b6-4ac2-9bbe-322ce8d7d9bb___FREC_Scab 2944.JPG,Apple___Apple_scab,Apple___Apple_scab:::8.0
+data/PlantVillage-apple/raw/color/Apple___Apple_scab/919f1400-c9b6-4343-9708-0e70deabb85d___FREC_Scab 2941.JPG,Apple___Apple_scab,Apple___Apple_scab:::8.0
+data/PlantVillage-apple/raw/color/Apple___Apple_scab/e6fcead3-7234-4e51-80fc-056372588d85___FREC_Scab 2940.JPG,Apple___Apple_scab,Apple___Apple_scab:::8.0
+data/PlantVillage-apple/raw/color/Apple___Apple_scab/f0d56524-1296-4a54-bafa-9b620baf9f1d___FREC_Scab 2942.JPG,Apple___Apple_scab,Apple___Apple_scab:::8.0
+data/PlantVillage-apple/raw/color/Apple___Apple_scab/0340dc35-5215-48ab-8db7-06af99fcb358___FREC_Scab 2966.JPG,Apple___Apple_scab,Apple___Apple_scab:::13.0
+data/PlantVillage-apple/raw/color/Apple___Apple_scab/3c2f46e3-9f96-4912-a9d5-7a046aa6a1b2___FREC_Scab 2967.JPG,Apple___Apple_scab,Apple___Apple_scab:::13.0
+data/PlantVillage-apple/raw/color/Apple___Apple_scab/3eb26abb-a392-4cc4-9be2-d5e4bb8f3660___FREC_Scab 2969.JPG,Apple___Apple_scab,Apple___Apple_scab:::13.0
+data/PlantVillage-apple/raw/color/Apple___Apple_scab/b4162101-daaa-4e98-bd83-e00f38cf5946___FREC_Scab 2968.JPG,Apple___Apple_scab,Apple___Apple_scab:::13.0
+data/PlantVillage-apple/raw/color/Apple___Apple_scab/f957b91b-878a-4f53-b8b5-a8bf7fa2c773___FREC_Scab 2970.JPG,Apple___Apple_scab,Apple___Apple_scab:::13.0
+data/PlantVillage-apple/raw/color/Apple___Apple_scab/10072248-60e2-4190-b4df-14e8ab61008c___FREC_Scab 3445.JPG,Apple___Apple_scab,Apple___Apple_scab:::96.0
+data/PlantVillage-apple/raw/color/Apple___Apple_scab/495816a8-4d85-47a5-9aca-a09f3f30a068___FREC_Scab 3443.JPG,Apple___Apple_scab,Apple___Apple_scab:::96.0
+data/PlantVillage-apple/raw/color/Apple___Apple_scab/7b3e4313-9abb-4105-8be9-2020f1101e58___FREC_Scab 3441.JPG,Apple___Apple_scab,Apple___Apple_scab:::96.0
+data/PlantVillage-apple/raw/color/Apple___Apple_scab/9a544639-1fc6-4c45-88e4-3049c2bc0814___FREC_Scab 3439.JPG,Apple___Apple_scab,Apple___Apple_scab:::96.0
+data/PlantVillage-apple/raw/color/Apple___Apple_scab/d94dd9a8-f2ad-45c4-bf45-3a361f5e2efa___FREC_Scab 3442.JPG,Apple___Apple_scab,Apple___Apple_scab:::96.0
+data/PlantVillage-apple/raw/color/Apple___Apple_scab/db71d62d-b06f-4aa2-a512-d3e5956fcffe___FREC_Scab 3444.JPG,Apple___Apple_scab,Apple___Apple_scab:::96.0
+data/PlantVillage-apple/raw/color/Apple___Apple_scab/f34d9619-f182-4b2f-b1a3-1658cc298f9b___FREC_Scab 3440.JPG,Apple___Apple_scab,Apple___Apple_scab:::96.0
+data/PlantVillage-apple/raw/color/Apple___Apple_scab/13b10b04-7da6-4d34-8b43-258239a25ffd___FREC_Scab 2990.JPG,Apple___Apple_scab,Apple___Apple_scab:::17.0
+data/PlantVillage-apple/raw/color/Apple___Apple_scab/2ae81857-0615-4a6a-8d13-1ace0c62284d___FREC_Scab 2992.JPG,Apple___Apple_scab,Apple___Apple_scab:::17.0
+data/PlantVillage-apple/raw/color/Apple___Apple_scab/2bfd8ee0-af6b-42fd-ae61-fc5e92ec1b67___FREC_Scab 2988.JPG,Apple___Apple_scab,Apple___Apple_scab:::17.0
+data/PlantVillage-apple/raw/color/Apple___Apple_scab/7bf25c0a-6594-4777-9a67-49a6487bb203___FREC_Scab 2993.JPG,Apple___Apple_scab,Apple___Apple_scab:::17.0
+data/PlantVillage-apple/raw/color/Apple___Apple_scab/8eaf0422-c84e-4521-8628-85cf2fc91e7c___FREC_Scab 2989.JPG,Apple___Apple_scab,Apple___Apple_scab:::17.0
+data/PlantVillage-apple/raw/color/Apple___Apple_scab/925b4276-9d62-4a3d-9dfd-1613ed40685a___FREC_Scab 2994.JPG,Apple___Apple_scab,Apple___Apple_scab:::17.0
+data/PlantVillage-apple/raw/color/Apple___Apple_scab/be23de1a-2db8-4d7f-8b5f-cee56829d49c___FREC_Scab 2991.JPG,Apple___Apple_scab,Apple___Apple_scab:::17.0
+data/PlantVillage-apple/raw/color/Apple___Apple_scab/276ed34e-9987-4b38-b83b-8626504fc204___FREC_Scab 3050.JPG,Apple___Apple_scab,Apple___Apple_scab:::27.0
+data/PlantVillage-apple/raw/color/Apple___Apple_scab/352a5659-3552-4e94-8333-c3715d38cc27___FREC_Scab 3049.JPG,Apple___Apple_scab,Apple___Apple_scab:::27.0
+data/PlantVillage-apple/raw/color/Apple___Apple_scab/453b09e4-6469-47f9-8599-f87e1d6eddf3___FREC_Scab 3048.JPG,Apple___Apple_scab,Apple___Apple_scab:::27.0
+data/PlantVillage-apple/raw/color/Apple___Apple_scab/99f409b1-0e19-43e6-bbc5-95c5368f86be___FREC_Scab 3051.JPG,Apple___Apple_scab,Apple___Apple_scab:::27.0
+data/PlantVillage-apple/raw/color/Apple___Apple_scab/fcb1ce1e-f60c-4a65-bfa4-157009760dad___FREC_Scab 3052.JPG,Apple___Apple_scab,Apple___Apple_scab:::27.0
+data/PlantVillage-apple/raw/color/Apple___Apple_scab/4a7f12ff-a785-4d12-8943-f1644789a21b___FREC_Scab 2916.JPG,Apple___Apple_scab,Apple___Apple_scab:::3.0
+data/PlantVillage-apple/raw/color/Apple___Apple_scab/5581f206-7305-4430-be5f-8de62689fb70___FREC_Scab 2918.JPG,Apple___Apple_scab,Apple___Apple_scab:::3.0
+data/PlantVillage-apple/raw/color/Apple___Apple_scab/ca37bd3e-47ec-415d-8012-81e4efcc6be5___FREC_Scab 2917.JPG,Apple___Apple_scab,Apple___Apple_scab:::3.0
+data/PlantVillage-apple/raw/color/Apple___Apple_scab/fb942296-ba33-40e5-ada0-6700365cf71d___FREC_Scab 2919.JPG,Apple___Apple_scab,Apple___Apple_scab:::3.0
+data/PlantVillage-apple/raw/color/Apple___Apple_scab/0537ad56-3d24-4e97-a947-65b9b37f8988___FREC_Scab 3079.JPG,Apple___Apple_scab,Apple___Apple_scab:::33.0
+data/PlantVillage-apple/raw/color/Apple___Apple_scab/176a93ed-6c2d-4828-ada1-87f1688b509b___FREC_Scab 3083.JPG,Apple___Apple_scab,Apple___Apple_scab:::33.0
+data/PlantVillage-apple/raw/color/Apple___Apple_scab/37659856-0fc8-430b-871a-af4f0b557e49___FREC_Scab 3081.JPG,Apple___Apple_scab,Apple___Apple_scab:::33.0
+data/PlantVillage-apple/raw/color/Apple___Apple_scab/4be9d1d9-2170-4856-a81e-e53e7aa5dbf7___FREC_Scab 3082.JPG,Apple___Apple_scab,Apple___Apple_scab:::33.0
+data/PlantVillage-apple/raw/color/Apple___Apple_scab/53d37faf-7a68-4fe2-ac1f-5438637742d4___FREC_Scab 3080.JPG,Apple___Apple_scab,Apple___Apple_scab:::33.0
+data/PlantVillage-apple/raw/color/Apple___Apple_scab/63e1d796-f00e-4c24-9871-2eae6f9c9ced___FREC_Scab 3078.JPG,Apple___Apple_scab,Apple___Apple_scab:::33.0
+data/PlantVillage-apple/raw/color/Apple___Apple_scab/4bb38e05-1d5a-40c6-8638-10db134db682___FREC_Scab 3390.JPG,Apple___Apple_scab,Apple___Apple_scab:::87.0
+data/PlantVillage-apple/raw/color/Apple___Apple_scab/63cf5c0e-0a65-4261-9034-ba75466ee918___FREC_Scab 3385.JPG,Apple___Apple_scab,Apple___Apple_scab:::87.0
+data/PlantVillage-apple/raw/color/Apple___Apple_scab/6b6b2140-bb67-4342-adad-8cba97a5ecbe___FREC_Scab 3388.JPG,Apple___Apple_scab,Apple___Apple_scab:::87.0
+data/PlantVillage-apple/raw/color/Apple___Apple_scab/d1a9a2ab-6d10-4c1a-87e1-349117b2700f___FREC_Scab 3389.JPG,Apple___Apple_scab,Apple___Apple_scab:::87.0
+data/PlantVillage-apple/raw/color/Apple___Apple_scab/d608ac35-eaf8-43e2-b429-f9b433126023___FREC_Scab 3386.JPG,Apple___Apple_scab,Apple___Apple_scab:::87.0
+data/PlantVillage-apple/raw/color/Apple___Apple_scab/eb3fa649-d717-4769-9f69-57f88c166455___FREC_Scab 3387.JPG,Apple___Apple_scab,Apple___Apple_scab:::87.0
+data/PlantVillage-apple/raw/color/Apple___Apple_scab/2bc50b52-0d7d-41a3-be8a-8d070341d87f___FREC_Scab 3476.JPG,Apple___Apple_scab,Apple___Apple_scab:::101.0
+data/PlantVillage-apple/raw/color/Apple___Apple_scab/44d28651-473c-4e9b-81ec-212893669fba___FREC_Scab 3477.JPG,Apple___Apple_scab,Apple___Apple_scab:::101.0
+data/PlantVillage-apple/raw/color/Apple___Apple_scab/6b9ef56b-3338-4d2b-a5e4-a1547234e6d6___FREC_Scab 3474.JPG,Apple___Apple_scab,Apple___Apple_scab:::101.0
+data/PlantVillage-apple/raw/color/Apple___Apple_scab/6d6f5a72-4c92-4163-b3dc-9a8f74f9edb7___FREC_Scab 3480.JPG,Apple___Apple_scab,Apple___Apple_scab:::101.0
+data/PlantVillage-apple/raw/color/Apple___Apple_scab/75eca8b6-4446-4bf4-9d10-7d38ed44199a___FREC_Scab 3475.JPG,Apple___Apple_scab,Apple___Apple_scab:::101.0
+data/PlantVillage-apple/raw/color/Apple___Apple_scab/83dc6270-1c10-4c76-a1a2-6b562fcb4e4c___FREC_Scab 3478.JPG,Apple___Apple_scab,Apple___Apple_scab:::101.0
+data/PlantVillage-apple/raw/color/Apple___Apple_scab/b56bccc2-4489-412c-83ac-ef0c7672ee70___FREC_Scab 3479.JPG,Apple___Apple_scab,Apple___Apple_scab:::101.0
+data/PlantVillage-apple/raw/color/Apple___Apple_scab/0a6812de-7416-4ffe-aba9-307599a02c84___FREC_Scab 2973.JPG,Apple___Apple_scab,Apple___Apple_scab:::14.0
+data/PlantVillage-apple/raw/color/Apple___Apple_scab/47b3d8bb-2461-4593-a0fe-a6adf0925a9a___FREC_Scab 2974.JPG,Apple___Apple_scab,Apple___Apple_scab:::14.0
+data/PlantVillage-apple/raw/color/Apple___Apple_scab/6823f5d3-b27b-4a34-a417-5fc5bd99f9d7___FREC_Scab 2975.JPG,Apple___Apple_scab,Apple___Apple_scab:::14.0
+data/PlantVillage-apple/raw/color/Apple___Apple_scab/b98ecede-7f6f-4e39-a761-4dc37699507b___FREC_Scab 2971.JPG,Apple___Apple_scab,Apple___Apple_scab:::14.0
+data/PlantVillage-apple/raw/color/Apple___Apple_scab/fb911d9c-0445-4d0f-886e-50458b82d6c2___FREC_Scab 2972.JPG,Apple___Apple_scab,Apple___Apple_scab:::14.0
+data/PlantVillage-apple/raw/color/Apple___Apple_scab/7ed79254-3e04-4e08-9c80-088cd9d7d8c9___FREC_Scab 3310.JPG,Apple___Apple_scab,Apple___Apple_scab:::75.0
+data/PlantVillage-apple/raw/color/Apple___Apple_scab/9555b45b-0080-4d26-8b54-a343b9bf0ffc___FREC_Scab 3313.JPG,Apple___Apple_scab,Apple___Apple_scab:::75.0
+data/PlantVillage-apple/raw/color/Apple___Apple_scab/ac61c972-546d-4977-ac4a-085f98bbf206___FREC_Scab 3308.JPG,Apple___Apple_scab,Apple___Apple_scab:::75.0
+data/PlantVillage-apple/raw/color/Apple___Apple_scab/b0613c0d-0e9d-4e47-9743-57f5da39a092___FREC_Scab 3311.JPG,Apple___Apple_scab,Apple___Apple_scab:::75.0
+data/PlantVillage-apple/raw/color/Apple___Apple_scab/bc2ce052-84b8-4de9-bd9d-7528869b62dc___FREC_Scab 3309.JPG,Apple___Apple_scab,Apple___Apple_scab:::75.0
+data/PlantVillage-apple/raw/color/Apple___Apple_scab/de8933ae-509d-48ae-8cd7-9097ad1e6d2d___FREC_Scab 3307.JPG,Apple___Apple_scab,Apple___Apple_scab:::75.0
+data/PlantVillage-apple/raw/color/Apple___Apple_scab/e17c9433-0a90-4dd8-a2d8-08bb65c3d3d2___FREC_Scab 3306.JPG,Apple___Apple_scab,Apple___Apple_scab:::75.0
+data/PlantVillage-apple/raw/color/Apple___Apple_scab/f2391b26-b388-4ffc-b735-9b8d859d1ffa___FREC_Scab 3312.JPG,Apple___Apple_scab,Apple___Apple_scab:::75.0
+data/PlantVillage-apple/raw/color/Apple___Black_rot/032cf235-07ff-478f-b347-d55c07835bc5___JR_FrgE.S 8778.JPG,Apple___Black_rot,Apple_Frogeye Spot:::64.0
+data/PlantVillage-apple/raw/color/Apple___Black_rot/1bb4d1d5-ca06-49b6-8f89-ed0d6c1d68af___JR_FrgE.S 8777.JPG,Apple___Black_rot,Apple_Frogeye Spot:::64.0
+data/PlantVillage-apple/raw/color/Apple___Black_rot/58053fa6-04df-4c96-901e-924bdbcaaf1e___JR_FrgE.S 8774.JPG,Apple___Black_rot,Apple_Frogeye Spot:::64.0
+data/PlantVillage-apple/raw/color/Apple___Black_rot/bd1b3df1-f056-40c1-aded-be7185154408___JR_FrgE.S 8779.JPG,Apple___Black_rot,Apple_Frogeye Spot:::64.0
+data/PlantVillage-apple/raw/color/Apple___Black_rot/d4c03762-b68f-4e8f-ae5c-10b15de04fb3___JR_FrgE.S 8776.JPG,Apple___Black_rot,Apple_Frogeye Spot:::64.0
+data/PlantVillage-apple/raw/color/Apple___Black_rot/d65349b4-80ff-474e-a48e-bf8fa597d880___JR_FrgE.S 8775.JPG,Apple___Black_rot,Apple_Frogeye Spot:::64.0
+data/PlantVillage-apple/raw/color/Apple___Black_rot/057c985f-2a00-40fe-b48f-590aabd3babe___JR_FrgE.S 3015.JPG,Apple___Black_rot,Apple_Frogeye Spot:::24.0
+data/PlantVillage-apple/raw/color/Apple___Black_rot/1aa28af5-8270-467c-b496-ff415f0b58df___JR_FrgE.S 3010.JPG,Apple___Black_rot,Apple_Frogeye Spot:::24.0
+data/PlantVillage-apple/raw/color/Apple___Black_rot/4f71c078-e0f6-4b05-a421-1b644f0e99a1___JR_FrgE.S 3016.JPG,Apple___Black_rot,Apple_Frogeye Spot:::24.0
+data/PlantVillage-apple/raw/color/Apple___Black_rot/507c6d2a-5fba-4f4c-9c44-9308f3ffdf69___JR_FrgE.S 3013.JPG,Apple___Black_rot,Apple_Frogeye Spot:::24.0
+data/PlantVillage-apple/raw/color/Apple___Black_rot/7c6d3ea5-7af7-411b-982d-8054c545818e___JR_FrgE.S 3009.JPG,Apple___Black_rot,Apple_Frogeye Spot:::24.0
+data/PlantVillage-apple/raw/color/Apple___Black_rot/9d79342d-4445-42d1-878c-7f0c91e285fe___JR_FrgE.S 3011.JPG,Apple___Black_rot,Apple_Frogeye Spot:::24.0
+data/PlantVillage-apple/raw/color/Apple___Black_rot/d751e4b1-101d-4f23-aa99-5cd93b617aab___JR_FrgE.S 3012.JPG,Apple___Black_rot,Apple_Frogeye Spot:::24.0
+data/PlantVillage-apple/raw/color/Apple___Black_rot/dda90093-ad40-44cf-8c6d-b4572d1c19cd___JR_FrgE.S 3014.JPG,Apple___Black_rot,Apple_Frogeye Spot:::24.0
+data/PlantVillage-apple/raw/color/Apple___Black_rot/23641520-3fbf-42e9-ba5f-c689bc74ce8c___JR_FrgE.S 8620.JPG,Apple___Black_rot,Apple_Frogeye Spot:::40.0
+data/PlantVillage-apple/raw/color/Apple___Black_rot/769283e3-f7ec-4e62-b907-4b22d1bda1ea___JR_FrgE.S 8618.JPG,Apple___Black_rot,Apple_Frogeye Spot:::40.0
+data/PlantVillage-apple/raw/color/Apple___Black_rot/9675b0f0-4169-495a-b285-67fbeeacf873___JR_FrgE.S 8621.JPG,Apple___Black_rot,Apple_Frogeye Spot:::40.0
+data/PlantVillage-apple/raw/color/Apple___Black_rot/98f61299-9578-49f4-8907-1d06e8b15d8a___JR_FrgE.S 8617.JPG,Apple___Black_rot,Apple_Frogeye Spot:::40.0
+data/PlantVillage-apple/raw/color/Apple___Black_rot/ad42c269-aca2-4b1b-9e3d-59108ccb79a3___JR_FrgE.S 8622.JPG,Apple___Black_rot,Apple_Frogeye Spot:::40.0
+data/PlantVillage-apple/raw/color/Apple___Black_rot/cd4907f8-168a-405b-ae16-599e6e621dca___JR_FrgE.S 8619.JPG,Apple___Black_rot,Apple_Frogeye Spot:::40.0
+data/PlantVillage-apple/raw/color/Apple___Black_rot/0c7c7992-fb1c-444b-b226-69de186cea14___JR_FrgE.S 8627.JPG,Apple___Black_rot,Apple_Frogeye Spot:::41.0
+data/PlantVillage-apple/raw/color/Apple___Black_rot/169b07da-12eb-4a6d-9b24-f37692ca923d___JR_FrgE.S 8636.JPG,Apple___Black_rot,Apple_Frogeye Spot:::41.0
+data/PlantVillage-apple/raw/color/Apple___Black_rot/4b5683c4-ef68-4439-b346-f76ea2c651da___JR_FrgE.S 8639.JPG,Apple___Black_rot,Apple_Frogeye Spot:::41.0
+data/PlantVillage-apple/raw/color/Apple___Black_rot/5386aabe-1e7f-4688-ac5e-ade0e91318d4___JR_FrgE.S 8638.JPG,Apple___Black_rot,Apple_Frogeye Spot:::41.0
+data/PlantVillage-apple/raw/color/Apple___Black_rot/64b3612f-e972-44c5-8ef0-c9ac194c34a9___JR_FrgE.S 8623.JPG,Apple___Black_rot,Apple_Frogeye Spot:::41.0
+data/PlantVillage-apple/raw/color/Apple___Black_rot/65e6c212-6363-4ba2-8245-52c5266efad0___JR_FrgE.S 8625.JPG,Apple___Black_rot,Apple_Frogeye Spot:::41.0
+data/PlantVillage-apple/raw/color/Apple___Black_rot/6cb50cab-0f02-4a52-a98f-17c096a6b79f___JR_FrgE.S 8637.JPG,Apple___Black_rot,Apple_Frogeye Spot:::41.0
+data/PlantVillage-apple/raw/color/Apple___Black_rot/86110fa2-5836-43ed-856e-9a5fa416404f___JR_FrgE.S 8624.JPG,Apple___Black_rot,Apple_Frogeye Spot:::41.0
+data/PlantVillage-apple/raw/color/Apple___Black_rot/a352005b-d036-4aa9-8e17-babac0a9b882___JR_FrgE.S 8628.JPG,Apple___Black_rot,Apple_Frogeye Spot:::41.0
+data/PlantVillage-apple/raw/color/Apple___Black_rot/d270d610-6fb5-4ae1-9a00-ad72b3e98526___JR_FrgE.S 8635.JPG,Apple___Black_rot,Apple_Frogeye Spot:::41.0
+data/PlantVillage-apple/raw/color/Apple___Black_rot/e8a82871-4dc0-4186-b8f1-0a27f82b60e8___JR_FrgE.S 8626.JPG,Apple___Black_rot,Apple_Frogeye Spot:::41.0
+data/PlantVillage-apple/raw/color/Apple___Black_rot/f9ec74fa-f27f-4185-a89c-0613319e382b___JR_FrgE.S 8640.JPG,Apple___Black_rot,Apple_Frogeye Spot:::41.0
+data/PlantVillage-apple/raw/color/Apple___Black_rot/132a74c4-3bdc-410b-931d-887bac16b074___JR_FrgE.S 8705.JPG,Apple___Black_rot,Apple_Frogeye Spot:::52.0
+data/PlantVillage-apple/raw/color/Apple___Black_rot/51c1787e-4570-43dc-91c3-6ae72c98128a___JR_FrgE.S 8706.JPG,Apple___Black_rot,Apple_Frogeye Spot:::52.0
+data/PlantVillage-apple/raw/color/Apple___Black_rot/67a17e09-3409-4515-bde6-cb739d679f64___JR_FrgE.S 8708.JPG,Apple___Black_rot,Apple_Frogeye Spot:::52.0
+data/PlantVillage-apple/raw/color/Apple___Black_rot/db1600c7-f9dc-45a4-9e01-223b67ebef83___JR_FrgE.S 8703.JPG,Apple___Black_rot,Apple_Frogeye Spot:::52.0
+data/PlantVillage-apple/raw/color/Apple___Black_rot/e956f107-ce57-4996-82a1-2336be5943c0___JR_FrgE.S 8704.JPG,Apple___Black_rot,Apple_Frogeye Spot:::52.0
+data/PlantVillage-apple/raw/color/Apple___Black_rot/f1931320-4177-4453-93fd-3decee538b51___JR_FrgE.S 8707.JPG,Apple___Black_rot,Apple_Frogeye Spot:::52.0
+data/PlantVillage-apple/raw/color/Apple___Black_rot/05421496-3901-424d-b44a-1be1f2734cf1___JR_FrgE.S 3005.JPG,Apple___Black_rot,Apple_Frogeye Spot:::23.0
+data/PlantVillage-apple/raw/color/Apple___Black_rot/1d0e83a0-f3c0-4c14-b1d6-b0ceee3552ac___JR_FrgE.S 3006.JPG,Apple___Black_rot,Apple_Frogeye Spot:::23.0
+data/PlantVillage-apple/raw/color/Apple___Black_rot/4b8414f0-fa9b-4195-90cb-608f6fd74d44___JR_FrgE.S 2999.JPG,Apple___Black_rot,Apple_Frogeye Spot:::23.0
+data/PlantVillage-apple/raw/color/Apple___Black_rot/6af96fb3-002f-48b3-a2e8-fb5cf30dfa63___JR_FrgE.S 2998.JPG,Apple___Black_rot,Apple_Frogeye Spot:::23.0
+data/PlantVillage-apple/raw/color/Apple___Black_rot/727f3a92-f43b-4388-84ff-3865ee745b42___JR_FrgE.S 3000.JPG,Apple___Black_rot,Apple_Frogeye Spot:::23.0
+data/PlantVillage-apple/raw/color/Apple___Black_rot/8371e040-cf1b-4c28-a52c-db9c10ad9465___JR_FrgE.S 3007.JPG,Apple___Black_rot,Apple_Frogeye Spot:::23.0
+data/PlantVillage-apple/raw/color/Apple___Black_rot/932e43a7-738f-4864-92e2-745bb715160e___JR_FrgE.S 2997.JPG,Apple___Black_rot,Apple_Frogeye Spot:::23.0
+data/PlantVillage-apple/raw/color/Apple___Black_rot/9db01900-2a71-4acc-a9e8-f1a462707cf8___JR_FrgE.S 3004.JPG,Apple___Black_rot,Apple_Frogeye Spot:::23.0
+data/PlantVillage-apple/raw/color/Apple___Black_rot/9e4c3e90-477d-4b7e-8227-bf82a037024e___JR_FrgE.S 3003.JPG,Apple___Black_rot,Apple_Frogeye Spot:::23.0
+data/PlantVillage-apple/raw/color/Apple___Black_rot/c3fc7435-5960-4b9a-b333-287ffeb05126___JR_FrgE.S 3002.JPG,Apple___Black_rot,Apple_Frogeye Spot:::23.0
+data/PlantVillage-apple/raw/color/Apple___Black_rot/e66666f1-bad7-4ceb-8142-389b841be362___JR_FrgE.S 3008.JPG,Apple___Black_rot,Apple_Frogeye Spot:::23.0
+data/PlantVillage-apple/raw/color/Apple___Black_rot/f83c1286-8bdb-48e6-ac8f-bd8a5209afc7___JR_FrgE.S 3001.JPG,Apple___Black_rot,Apple_Frogeye Spot:::23.0
+data/PlantVillage-apple/raw/color/Apple___Black_rot/29f7c332-777e-427b-898a-3b82465a17aa___JR_FrgE.S 2941.JPG,Apple___Black_rot,Apple_Frogeye Spot:::17.0
+data/PlantVillage-apple/raw/color/Apple___Black_rot/30ff1b97-0850-4224-a176-bfa284d92a24___JR_FrgE.S 2940.JPG,Apple___Black_rot,Apple_Frogeye Spot:::17.0
+data/PlantVillage-apple/raw/color/Apple___Black_rot/51f4101a-e126-4e3f-a06d-67befea24921___JR_FrgE.S 2939.JPG,Apple___Black_rot,Apple_Frogeye Spot:::17.0
+data/PlantVillage-apple/raw/color/Apple___Black_rot/6e21042a-928f-4e40-81bf-3a103ff52765___JR_FrgE.S 2938.JPG,Apple___Black_rot,Apple_Frogeye Spot:::17.0
+data/PlantVillage-apple/raw/color/Apple___Black_rot/8ef1ae5f-e7e1-481d-a2ee-946d9ea29c01___JR_FrgE.S 2932.JPG,Apple___Black_rot,Apple_Frogeye Spot:::17.0
+data/PlantVillage-apple/raw/color/Apple___Black_rot/a2d0df69-e2ee-4b7b-8b48-051027a83258___JR_FrgE.S 2936.JPG,Apple___Black_rot,Apple_Frogeye Spot:::17.0
+data/PlantVillage-apple/raw/color/Apple___Black_rot/bf3eaad3-aa22-4425-88f0-339be0f39059___JR_FrgE.S 2933.JPG,Apple___Black_rot,Apple_Frogeye Spot:::17.0
+data/PlantVillage-apple/raw/color/Apple___Black_rot/d8735c39-eb57-460b-bff1-7946a6d3a543___JR_FrgE.S 2935.JPG,Apple___Black_rot,Apple_Frogeye Spot:::17.0
+data/PlantVillage-apple/raw/color/Apple___Black_rot/e3eead59-f821-41dd-9794-ba3ad35c71c7___JR_FrgE.S 2937.JPG,Apple___Black_rot,Apple_Frogeye Spot:::17.0
+data/PlantVillage-apple/raw/color/Apple___Black_rot/fbbd1259-ea22-4f56-8298-8429d228a07c___JR_FrgE.S 2934.JPG,Apple___Black_rot,Apple_Frogeye Spot:::17.0
+data/PlantVillage-apple/raw/color/Apple___Black_rot/116ccffb-6361-4191-8f36-b6cacbe99412___JR_FrgE.S 2763.JPG,Apple___Black_rot,Apple_Frogeye Spot:::4.0
+data/PlantVillage-apple/raw/color/Apple___Black_rot/1a9f6dfb-fdf4-43b4-9fb4-b7a809b49b9d___JR_FrgE.S 2765.JPG,Apple___Black_rot,Apple_Frogeye Spot:::4.0
+data/PlantVillage-apple/raw/color/Apple___Black_rot/2101e5e6-2932-4ac0-8879-59885fc01256___JR_FrgE.S 2769.JPG,Apple___Black_rot,Apple_Frogeye Spot:::4.0
+data/PlantVillage-apple/raw/color/Apple___Black_rot/456a01fc-8db6-4068-96cb-3b1e4e5f77f1___JR_FrgE.S 2768.JPG,Apple___Black_rot,Apple_Frogeye Spot:::4.0
+data/PlantVillage-apple/raw/color/Apple___Black_rot/4a79c093-e813-4854-ba58-5b9e2831c7f0___JR_FrgE.S 2764.JPG,Apple___Black_rot,Apple_Frogeye Spot:::4.0
+data/PlantVillage-apple/raw/color/Apple___Black_rot/5103776c-7e16-467d-bc37-8995a8c1ea6f___JR_FrgE.S 2770.JPG,Apple___Black_rot,Apple_Frogeye Spot:::4.0
+data/PlantVillage-apple/raw/color/Apple___Black_rot/52a259e0-e323-4655-84e5-4588cb1c8ed6___JR_FrgE.S 2758.JPG,Apple___Black_rot,Apple_Frogeye Spot:::4.0
+data/PlantVillage-apple/raw/color/Apple___Black_rot/52c66129-6303-4aa4-97e7-8f1c0d24c57a___JR_FrgE.S 2759.JPG,Apple___Black_rot,Apple_Frogeye Spot:::4.0
+data/PlantVillage-apple/raw/color/Apple___Black_rot/538ae10f-3137-4050-86f1-7439bc80e364___JR_FrgE.S 2766.JPG,Apple___Black_rot,Apple_Frogeye Spot:::4.0
+data/PlantVillage-apple/raw/color/Apple___Black_rot/5db69c6b-f9c9-4a3f-b47a-ca6449023bdd___JR_FrgE.S 2757.JPG,Apple___Black_rot,Apple_Frogeye Spot:::4.0
+data/PlantVillage-apple/raw/color/Apple___Black_rot/6e6ba2b7-f2dd-4e99-816a-0e0b8dd6d6bf___JR_FrgE.S 2762.JPG,Apple___Black_rot,Apple_Frogeye Spot:::4.0
+data/PlantVillage-apple/raw/color/Apple___Black_rot/70ba699d-a8aa-494a-889f-fd7e54a723be___JR_FrgE.S 2760.JPG,Apple___Black_rot,Apple_Frogeye Spot:::4.0
+data/PlantVillage-apple/raw/color/Apple___Black_rot/82c2189f-9a4c-42f8-8e1a-fc67e2c7ebb8___JR_FrgE.S 2761.JPG,Apple___Black_rot,Apple_Frogeye Spot:::4.0
+data/PlantVillage-apple/raw/color/Apple___Black_rot/f079c46a-6614-45ac-8ab6-187d126609e5___JR_FrgE.S 2767.JPG,Apple___Black_rot,Apple_Frogeye Spot:::4.0
+data/PlantVillage-apple/raw/color/Apple___Black_rot/427bd918-f362-48d9-9903-4e7197e87a87___JR_FrgE.S 3034.JPG,Apple___Black_rot,Apple_Frogeye Spot:::26.0
+data/PlantVillage-apple/raw/color/Apple___Black_rot/4b934731-815b-461f-a252-a02f198f91ab___JR_FrgE.S 3032.JPG,Apple___Black_rot,Apple_Frogeye Spot:::26.0
+data/PlantVillage-apple/raw/color/Apple___Black_rot/5d1c501f-ce9a-4538-ac05-bda251444cba___JR_FrgE.S 3035.JPG,Apple___Black_rot,Apple_Frogeye Spot:::26.0
+data/PlantVillage-apple/raw/color/Apple___Black_rot/64d43490-e345-4690-8232-071bf0174895___JR_FrgE.S 3031.JPG,Apple___Black_rot,Apple_Frogeye Spot:::26.0
+data/PlantVillage-apple/raw/color/Apple___Black_rot/74dfd7d6-e78e-47d9-8530-35acab5cd01f___JR_FrgE.S 3027.JPG,Apple___Black_rot,Apple_Frogeye Spot:::26.0
+data/PlantVillage-apple/raw/color/Apple___Black_rot/7eee2c9b-285a-411a-950b-7cd5547a9440___JR_FrgE.S 3028.JPG,Apple___Black_rot,Apple_Frogeye Spot:::26.0
+data/PlantVillage-apple/raw/color/Apple___Black_rot/bd2af58a-c9fc-4c2f-bdcb-b53d979947d7___JR_FrgE.S 3029.JPG,Apple___Black_rot,Apple_Frogeye Spot:::26.0
+data/PlantVillage-apple/raw/color/Apple___Black_rot/c46d0eff-8a56-4655-9940-93a323c7154a___JR_FrgE.S 3033.JPG,Apple___Black_rot,Apple_Frogeye Spot:::26.0
+data/PlantVillage-apple/raw/color/Apple___Black_rot/ee7a3b7f-0bda-47e7-b211-734166bb6973___JR_FrgE.S 3030.JPG,Apple___Black_rot,Apple_Frogeye Spot:::26.0
+data/PlantVillage-apple/raw/color/Apple___Black_rot/12e9d8e2-e5a4-4d4b-933f-7cbc07557736___JR_FrgE.S 8767.JPG,Apple___Black_rot,Apple_Frogeye Spot:::62.0
+data/PlantVillage-apple/raw/color/Apple___Black_rot/2d1ac581-1847-419e-8254-55a9caad6b2b___JR_FrgE.S 8766.JPG,Apple___Black_rot,Apple_Frogeye Spot:::62.0
+data/PlantVillage-apple/raw/color/Apple___Black_rot/40780a98-eb5f-4de6-bbf8-bc89b7fb0825___JR_FrgE.S 8764.JPG,Apple___Black_rot,Apple_Frogeye Spot:::62.0
+data/PlantVillage-apple/raw/color/Apple___Black_rot/6923c419-55d4-4f33-91aa-9ecfb860d72d___JR_FrgE.S 8763.JPG,Apple___Black_rot,Apple_Frogeye Spot:::62.0
+data/PlantVillage-apple/raw/color/Apple___Black_rot/888c8b6e-55cb-4492-b489-22f3624f1c39___JR_FrgE.S 8765.JPG,Apple___Black_rot,Apple_Frogeye Spot:::62.0
+data/PlantVillage-apple/raw/color/Apple___Black_rot/1c4c2235-2c28-438e-8fa9-505b5d3004a0___JR_FrgE.S 8720.JPG,Apple___Black_rot,Apple_Frogeye Spot:::55.0
+data/PlantVillage-apple/raw/color/Apple___Black_rot/9d8d2d78-8faf-4a85-90b6-2a2ffed94d83___JR_FrgE.S 8721.JPG,Apple___Black_rot,Apple_Frogeye Spot:::55.0
+data/PlantVillage-apple/raw/color/Apple___Black_rot/b84f9317-4054-4796-b36a-1dffcb871956___JR_FrgE.S 8725.JPG,Apple___Black_rot,Apple_Frogeye Spot:::55.0
+data/PlantVillage-apple/raw/color/Apple___Black_rot/c225a3a5-4b7f-4226-aa70-73c9ce8d3de2___JR_FrgE.S 8722.JPG,Apple___Black_rot,Apple_Frogeye Spot:::55.0
+data/PlantVillage-apple/raw/color/Apple___Black_rot/c762e867-0f8b-459e-b870-10090256d9bf___JR_FrgE.S 8723.JPG,Apple___Black_rot,Apple_Frogeye Spot:::55.0
+data/PlantVillage-apple/raw/color/Apple___Black_rot/f702f711-d90a-46be-8cd1-78521ecb6822___JR_FrgE.S 8724.JPG,Apple___Black_rot,Apple_Frogeye Spot:::55.0
+data/PlantVillage-apple/raw/color/Apple___Black_rot/497e0a24-9a4e-4ace-8aa3-d60751b03abe___JR_FrgE.S 8794.JPG,Apple___Black_rot,Apple_Frogeye Spot:::67.0
+data/PlantVillage-apple/raw/color/Apple___Black_rot/62cc4916-2674-472e-a48c-0ce986aa85e3___JR_FrgE.S 8793.JPG,Apple___Black_rot,Apple_Frogeye Spot:::67.0
+data/PlantVillage-apple/raw/color/Apple___Black_rot/6330666e-a1cc-48c5-8e60-64cdf531c294___JR_FrgE.S 8795.JPG,Apple___Black_rot,Apple_Frogeye Spot:::67.0
+data/PlantVillage-apple/raw/color/Apple___Black_rot/77843368-1495-4113-b865-83e381f0641e___JR_FrgE.S 8791.JPG,Apple___Black_rot,Apple_Frogeye Spot:::67.0
+data/PlantVillage-apple/raw/color/Apple___Black_rot/8d911287-49a5-4b0b-b9e5-8d270baf40f0___JR_FrgE.S 8792.JPG,Apple___Black_rot,Apple_Frogeye Spot:::67.0
+data/PlantVillage-apple/raw/color/Apple___Black_rot/0c8432e0-0484-470c-a774-7cce596b9e64___JR_FrgE.S 2841.JPG,Apple___Black_rot,Apple_Frogeye Spot:::9.0
+data/PlantVillage-apple/raw/color/Apple___Black_rot/0ca16873-eeac-47e9-9a87-1859950daab7___JR_FrgE.S 2835.JPG,Apple___Black_rot,Apple_Frogeye Spot:::9.0
+data/PlantVillage-apple/raw/color/Apple___Black_rot/1c31a116-f51d-4f56-9c69-c26c5fe69f57___JR_FrgE.S 2844.JPG,Apple___Black_rot,Apple_Frogeye Spot:::9.0
+data/PlantVillage-apple/raw/color/Apple___Black_rot/2b16890e-753f-4ee8-a78e-d0a7fdf8d91a___JR_FrgE.S 2838.JPG,Apple___Black_rot,Apple_Frogeye Spot:::9.0
+data/PlantVillage-apple/raw/color/Apple___Black_rot/3ee8f19d-38a4-4e9d-adc1-c8ab5e95ba60___JR_FrgE.S 2839.JPG,Apple___Black_rot,Apple_Frogeye Spot:::9.0
+data/PlantVillage-apple/raw/color/Apple___Black_rot/56473ed3-436d-4ee1-842a-02bc4fba12e7___JR_FrgE.S 2847.JPG,Apple___Black_rot,Apple_Frogeye Spot:::9.0
+data/PlantVillage-apple/raw/color/Apple___Black_rot/717c4f62-f05f-4345-a5d7-3b34f3a2efb6___JR_FrgE.S 2836.JPG,Apple___Black_rot,Apple_Frogeye Spot:::9.0
+data/PlantVillage-apple/raw/color/Apple___Black_rot/723e8edc-3701-4ba1-bda2-7e0ebd535797___JR_FrgE.S 2837.JPG,Apple___Black_rot,Apple_Frogeye Spot:::9.0
+data/PlantVillage-apple/raw/color/Apple___Black_rot/8a1bb676-5d3e-423b-a667-c72d099215ab___JR_FrgE.S 2842.JPG,Apple___Black_rot,Apple_Frogeye Spot:::9.0
+data/PlantVillage-apple/raw/color/Apple___Black_rot/938c07c1-f2ad-4cbe-b088-51a085442c3b___JR_FrgE.S 2846.JPG,Apple___Black_rot,Apple_Frogeye Spot:::9.0
+data/PlantVillage-apple/raw/color/Apple___Black_rot/a9d80158-0e41-4e0d-8a6b-ec0df3a83ed4___JR_FrgE.S 2845.JPG,Apple___Black_rot,Apple_Frogeye Spot:::9.0
+data/PlantVillage-apple/raw/color/Apple___Black_rot/c7cdbb47-6660-44b5-8bb6-3cb796685d15___JR_FrgE.S 2834.JPG,Apple___Black_rot,Apple_Frogeye Spot:::9.0
+data/PlantVillage-apple/raw/color/Apple___Black_rot/ca07e05a-e6a2-4651-b4fd-e54f0d1c58b7___JR_FrgE.S 2840.JPG,Apple___Black_rot,Apple_Frogeye Spot:::9.0
+data/PlantVillage-apple/raw/color/Apple___Black_rot/fef17b16-ce22-4cb6-ba6a-270f5e08a17d___JR_FrgE.S 2843.JPG,Apple___Black_rot,Apple_Frogeye Spot:::9.0
+data/PlantVillage-apple/raw/color/Apple___Black_rot/46cfd121-d2e7-4a26-9c6f-5787457d200c___JR_FrgE.S 8669.JPG,Apple___Black_rot,Apple_Frogeye Spot:::46.0
+data/PlantVillage-apple/raw/color/Apple___Black_rot/6941b868-48df-4f58-9b34-4bc9d9e82867___JR_FrgE.S 8668.JPG,Apple___Black_rot,Apple_Frogeye Spot:::46.0
+data/PlantVillage-apple/raw/color/Apple___Black_rot/9bae8265-90e1-4b34-8db3-35b530fded3d___JR_FrgE.S 8667.JPG,Apple___Black_rot,Apple_Frogeye Spot:::46.0
+data/PlantVillage-apple/raw/color/Apple___Black_rot/a38a8891-5883-4cfd-9718-2566dccfa114___JR_FrgE.S 8670.JPG,Apple___Black_rot,Apple_Frogeye Spot:::46.0
+data/PlantVillage-apple/raw/color/Apple___Black_rot/ee978e42-d36d-4bba-b0ac-fcc0eefaacd3___JR_FrgE.S 8665.JPG,Apple___Black_rot,Apple_Frogeye Spot:::46.0
+data/PlantVillage-apple/raw/color/Apple___Black_rot/eff6da40-2404-4b50-a773-ac0d311559a9___JR_FrgE.S 8666.JPG,Apple___Black_rot,Apple_Frogeye Spot:::46.0
+data/PlantVillage-apple/raw/color/Apple___Black_rot/02859ed3-f56a-4315-82a5-c1cb72717225___JR_FrgE.S 8584.JPG,Apple___Black_rot,Apple_Frogeye Spot:::34.0
+data/PlantVillage-apple/raw/color/Apple___Black_rot/0cc47b2d-4a92-4bbd-af46-945165dd1960___JR_FrgE.S 8586.JPG,Apple___Black_rot,Apple_Frogeye Spot:::34.0
+data/PlantVillage-apple/raw/color/Apple___Black_rot/4fcfd5b0-e312-41f4-a8cf-16976b5882fd___JR_FrgE.S 8589.JPG,Apple___Black_rot,Apple_Frogeye Spot:::34.0
+data/PlantVillage-apple/raw/color/Apple___Black_rot/51ce3f1d-8418-4b7e-b091-dec14143d0b7___JR_FrgE.S 8579.JPG,Apple___Black_rot,Apple_Frogeye Spot:::34.0
+data/PlantVillage-apple/raw/color/Apple___Black_rot/58ebc44b-c9b7-441b-9aa1-bfcc1b90e21e___JR_FrgE.S 8582.JPG,Apple___Black_rot,Apple_Frogeye Spot:::34.0
+data/PlantVillage-apple/raw/color/Apple___Black_rot/5b9c8470-c6dc-4b79-b191-9dd6c82309c8___JR_FrgE.S 8580.JPG,Apple___Black_rot,Apple_Frogeye Spot:::34.0
+data/PlantVillage-apple/raw/color/Apple___Black_rot/75e9b8ed-e579-469c-96ec-d964fc7d4d90___JR_FrgE.S 8581.JPG,Apple___Black_rot,Apple_Frogeye Spot:::34.0
+data/PlantVillage-apple/raw/color/Apple___Black_rot/7b4b37d4-fec6-4e52-8c88-a6e1e69aeeb2___JR_FrgE.S 8588.JPG,Apple___Black_rot,Apple_Frogeye Spot:::34.0
+data/PlantVillage-apple/raw/color/Apple___Black_rot/83ec5e47-c1db-4889-9725-9c2daab2d112___JR_FrgE.S 8583.JPG,Apple___Black_rot,Apple_Frogeye Spot:::34.0
+data/PlantVillage-apple/raw/color/Apple___Black_rot/b1fb1490-dd67-4f69-97a4-a770ab7c8301___JR_FrgE.S 8587.JPG,Apple___Black_rot,Apple_Frogeye Spot:::34.0
+data/PlantVillage-apple/raw/color/Apple___Black_rot/c418f9e9-92e8-46ce-ba41-50b0f9b45d38___JR_FrgE.S 8585.JPG,Apple___Black_rot,Apple_Frogeye Spot:::34.0
+data/PlantVillage-apple/raw/color/Apple___Cedar_apple_rust/2ac8d689-f30a-4eee-a856-86c92f8dcbd2___FREC_C.Rust 3952.JPG,Apple___Cedar_apple_rust,Apple___Cedar_apple_rust:::38.0
+data/PlantVillage-apple/raw/color/Apple___Cedar_apple_rust/a523f082-e20a-40a4-b91a-6806b3794f29___FREC_C.Rust 3965.JPG,Apple___Cedar_apple_rust,Apple___Cedar_apple_rust:::38.0
+data/PlantVillage-apple/raw/color/Apple___Cedar_apple_rust/b884b0a2-44bb-4bf5-b335-946b1757c822___FREC_C.Rust 3955.JPG,Apple___Cedar_apple_rust,Apple___Cedar_apple_rust:::38.0
+data/PlantVillage-apple/raw/color/Apple___Cedar_apple_rust/f167b41b-c294-47e4-aed9-9ff7923176a5___FREC_C.Rust 3969.JPG,Apple___Cedar_apple_rust,Apple___Cedar_apple_rust:::38.0
+data/PlantVillage-apple/raw/color/Apple___Cedar_apple_rust/7c4829bb-fb00-42fc-b19f-1fc057aa61c3___FREC_C.Rust 9986.JPG,Apple___Cedar_apple_rust,Apple___Cedar_apple_rust:::69.0
+data/PlantVillage-apple/raw/color/Apple___Cedar_apple_rust/99efb674-1e97-4f94-978a-a87c24dde48a___FREC_C.Rust 9995.JPG,Apple___Cedar_apple_rust,Apple___Cedar_apple_rust:::69.0
+data/PlantVillage-apple/raw/color/Apple___Cedar_apple_rust/aa87fd23-a302-4e4e-80e7-18a261b17fd5___FREC_C.Rust 9989.JPG,Apple___Cedar_apple_rust,Apple___Cedar_apple_rust:::69.0
+data/PlantVillage-apple/raw/color/Apple___Cedar_apple_rust/31cd0e16-01aa-442a-af4d-1162ac8a7b81___FREC_C.Rust 9889.JPG,Apple___Cedar_apple_rust,Apple___Cedar_apple_rust:::62.0
+data/PlantVillage-apple/raw/color/Apple___Cedar_apple_rust/78821840-5d27-43ae-b830-c54e9f84432d___FREC_C.Rust 9891.JPG,Apple___Cedar_apple_rust,Apple___Cedar_apple_rust:::62.0
+data/PlantVillage-apple/raw/color/Apple___Cedar_apple_rust/85eb91f6-f8f0-438e-afbc-ca12551ee404___FREC_C.Rust 9884.JPG,Apple___Cedar_apple_rust,Apple___Cedar_apple_rust:::62.0
+data/PlantVillage-apple/raw/color/Apple___Cedar_apple_rust/8e4fc487-528e-4ff9-94dd-165332126018___FREC_C.Rust 9890.JPG,Apple___Cedar_apple_rust,Apple___Cedar_apple_rust:::62.0
+data/PlantVillage-apple/raw/color/Apple___Cedar_apple_rust/2ddde539-6c5f-4d76-8611-14761bb240de___FREC_C.Rust 3564.JPG,Apple___Cedar_apple_rust,Apple___Cedar_apple_rust:::14.0
+data/PlantVillage-apple/raw/color/Apple___Cedar_apple_rust/40761a05-eac1-44d2-b543-7e83ee6507ba___FREC_C.Rust 3556.JPG,Apple___Cedar_apple_rust,Apple___Cedar_apple_rust:::14.0
+data/PlantVillage-apple/raw/color/Apple___Cedar_apple_rust/b5869aff-ad9c-4d28-8e57-c20e21d25c01___FREC_C.Rust 3561.JPG,Apple___Cedar_apple_rust,Apple___Cedar_apple_rust:::14.0
+data/PlantVillage-apple/raw/color/Apple___Cedar_apple_rust/d58e68d2-a041-445c-8639-7359edd4827c___FREC_C.Rust 3558.JPG,Apple___Cedar_apple_rust,Apple___Cedar_apple_rust:::14.0
+data/PlantVillage-apple/raw/color/Apple___Cedar_apple_rust/27d7abba-647b-4f0c-aa4a-3978dccd4f5b___FREC_C.Rust 4092.JPG,Apple___Cedar_apple_rust,Apple___Cedar_apple_rust:::42.0
+data/PlantVillage-apple/raw/color/Apple___Cedar_apple_rust/30ae56d0-6974-4ad2-b4bf-486a97dcff5f___FREC_C.Rust 4088.JPG,Apple___Cedar_apple_rust,Apple___Cedar_apple_rust:::42.0
+data/PlantVillage-apple/raw/color/Apple___Cedar_apple_rust/7ddc6bbf-42d1-4c84-b695-88077058656f___FREC_C.Rust 4079.JPG,Apple___Cedar_apple_rust,Apple___Cedar_apple_rust:::42.0
+data/PlantVillage-apple/raw/color/Apple___Cedar_apple_rust/99efeabc-dafd-45ca-8111-91ec6aae3a7b___FREC_C.Rust 4089.JPG,Apple___Cedar_apple_rust,Apple___Cedar_apple_rust:::42.0
+data/PlantVillage-apple/raw/color/Apple___Cedar_apple_rust/097f37e1-d490-42e6-84d2-51e5385bf886___FREC_C.Rust 9861.JPG,Apple___Cedar_apple_rust,Apple___Cedar_apple_rust:::60.0
+data/PlantVillage-apple/raw/color/Apple___Cedar_apple_rust/46b6b57e-9c90-4de7-9fb1-b8b674d51f38___FREC_C.Rust 9857.JPG,Apple___Cedar_apple_rust,Apple___Cedar_apple_rust:::60.0
+data/PlantVillage-apple/raw/color/Apple___Cedar_apple_rust/4e6676b6-154c-4f7d-a355-bcc00a397c3d___FREC_C.Rust 9853.JPG,Apple___Cedar_apple_rust,Apple___Cedar_apple_rust:::60.0
+data/PlantVillage-apple/raw/color/Apple___Cedar_apple_rust/de0d25d1-eb08-4b9a-ac44-07d755d1fca0___FREC_C.Rust 9856.JPG,Apple___Cedar_apple_rust,Apple___Cedar_apple_rust:::60.0
+data/PlantVillage-apple/raw/color/Apple___Cedar_apple_rust/3e4303ad-6293-4522-821b-ef5dd3b658ce___FREC_C.Rust 3686.JPG,Apple___Cedar_apple_rust,Apple___Cedar_apple_rust:::23.0
+data/PlantVillage-apple/raw/color/Apple___Cedar_apple_rust/763123be-8a12-4d7a-8fa5-deff863b70f9___FREC_C.Rust 3691.JPG,Apple___Cedar_apple_rust,Apple___Cedar_apple_rust:::23.0
+data/PlantVillage-apple/raw/color/Apple___Cedar_apple_rust/9251881a-0cf0-48e1-80c5-562704abb40c___FREC_C.Rust 3681.JPG,Apple___Cedar_apple_rust,Apple___Cedar_apple_rust:::23.0
+data/PlantVillage-apple/raw/color/Apple___Cedar_apple_rust/e15e3b48-edda-485d-b5a0-0d876f441b73___FREC_C.Rust 3692.JPG,Apple___Cedar_apple_rust,Apple___Cedar_apple_rust:::23.0
+data/PlantVillage-apple/raw/color/Apple___Cedar_apple_rust/402aad30-3914-4227-a9b4-4d40a49fae72___FREC_C.Rust 0230.JPG,Apple___Cedar_apple_rust,Apple___Cedar_apple_rust:::12.0
+data/PlantVillage-apple/raw/color/Apple___Cedar_apple_rust/6fe0e179-4491-4257-a1d3-9cff9e9e2d27___FREC_C.Rust 0225.JPG,Apple___Cedar_apple_rust,Apple___Cedar_apple_rust:::12.0
+data/PlantVillage-apple/raw/color/Apple___Cedar_apple_rust/adc62175-3fb6-4273-81d2-818c75ba0ab1___FREC_C.Rust 0233.JPG,Apple___Cedar_apple_rust,Apple___Cedar_apple_rust:::12.0
+data/PlantVillage-apple/raw/color/Apple___Cedar_apple_rust/f02732b5-5250-4c05-80cf-fa68e71fee69___FREC_C.Rust 0234.JPG,Apple___Cedar_apple_rust,Apple___Cedar_apple_rust:::12.0
+data/PlantVillage-apple/raw/color/Apple___Cedar_apple_rust/1cfc6e73-1d86-4fb9-bffb-010163531711___FREC_C.Rust 3944.JPG,Apple___Cedar_apple_rust,Apple___Cedar_apple_rust:::37.0
+data/PlantVillage-apple/raw/color/Apple___Cedar_apple_rust/8a2c7dda-c639-47f2-8f10-3bd33d24a08e___FREC_C.Rust 3929.JPG,Apple___Cedar_apple_rust,Apple___Cedar_apple_rust:::37.0
+data/PlantVillage-apple/raw/color/Apple___Cedar_apple_rust/b1a2c1e8-e1a6-4d25-9d5b-1488e9d8b0ee___FREC_C.Rust 3938.JPG,Apple___Cedar_apple_rust,Apple___Cedar_apple_rust:::37.0
+data/PlantVillage-apple/raw/color/Apple___Cedar_apple_rust/c1d81b03-9e29-4f99-813b-1a9578defbc8___FREC_C.Rust 3942.JPG,Apple___Cedar_apple_rust,Apple___Cedar_apple_rust:::37.0
+data/PlantVillage-apple/raw/color/Apple___Cedar_apple_rust/3ea747af-ed9d-44f1-a8b6-61503adf0a4b___FREC_C.Rust 4174.JPG,Apple___Cedar_apple_rust,Apple___Cedar_apple_rust:::45.0
+data/PlantVillage-apple/raw/color/Apple___Cedar_apple_rust/3f9bd33d-ceeb-49fa-8874-d9cc013ca018___FREC_C.Rust 4183.JPG,Apple___Cedar_apple_rust,Apple___Cedar_apple_rust:::45.0
+data/PlantVillage-apple/raw/color/Apple___Cedar_apple_rust/5d4e82f2-d720-45fa-b913-13773583ee0f___FREC_C.Rust 4181.JPG,Apple___Cedar_apple_rust,Apple___Cedar_apple_rust:::45.0
+data/PlantVillage-apple/raw/color/Apple___Cedar_apple_rust/891545af-a393-4733-89a9-847a6da455ab___FREC_C.Rust 4182.JPG,Apple___Cedar_apple_rust,Apple___Cedar_apple_rust:::45.0
+data/PlantVillage-apple/raw/color/Apple___Cedar_apple_rust/23f6e0fa-3860-48a5-a3f4-4e64b54a3046___FREC_C.Rust 4336.JPG,Apple___Cedar_apple_rust,Apple___Cedar_apple_rust:::51.0
+data/PlantVillage-apple/raw/color/Apple___Cedar_apple_rust/92d7ce46-da77-4c87-a58b-81a44b0a9a58___FREC_C.Rust 4351.JPG,Apple___Cedar_apple_rust,Apple___Cedar_apple_rust:::51.0
+data/PlantVillage-apple/raw/color/Apple___Cedar_apple_rust/92f2fe26-624c-4620-8210-0e2ff92e594d___FREC_C.Rust 4354.JPG,Apple___Cedar_apple_rust,Apple___Cedar_apple_rust:::51.0
+data/PlantVillage-apple/raw/color/Apple___Cedar_apple_rust/d7fb4740-9707-484f-9809-b7efa8f7851d___FREC_C.Rust 4344.JPG,Apple___Cedar_apple_rust,Apple___Cedar_apple_rust:::51.0
+data/PlantVillage-apple/raw/color/Apple___Cedar_apple_rust/4134586e-a00a-4c53-8f8d-c275ef0d5f5f___FREC_C.Rust 3676.JPG,Apple___Cedar_apple_rust,Apple___Cedar_apple_rust:::22.0
+data/PlantVillage-apple/raw/color/Apple___Cedar_apple_rust/84eda310-5cbd-4de7-949d-471213cd0016___FREC_C.Rust 3679.JPG,Apple___Cedar_apple_rust,Apple___Cedar_apple_rust:::22.0
+data/PlantVillage-apple/raw/color/Apple___Cedar_apple_rust/9bbb97c5-a05b-4853-a30e-3b3ec1917067___FREC_C.Rust 3674.JPG,Apple___Cedar_apple_rust,Apple___Cedar_apple_rust:::22.0
+data/PlantVillage-apple/raw/color/Apple___Cedar_apple_rust/cf65a122-3455-40dc-8ba0-f6f71c4b0782___FREC_C.Rust 3673.JPG,Apple___Cedar_apple_rust,Apple___Cedar_apple_rust:::22.0
+data/PlantVillage-apple/raw/color/Apple___Cedar_apple_rust/5ba35826-8831-4638-a443-5c28f80c4de8___FREC_C.Rust 0212.JPG,Apple___Cedar_apple_rust,Apple___Cedar_apple_rust:::11.0
+data/PlantVillage-apple/raw/color/Apple___Cedar_apple_rust/9f7d070e-f51d-4b14-86e4-6f059ea4eca7___FREC_C.Rust 0210.JPG,Apple___Cedar_apple_rust,Apple___Cedar_apple_rust:::11.0
+data/PlantVillage-apple/raw/color/Apple___Cedar_apple_rust/fb27b16c-4ac1-45e9-abd2-487a1a528fb0___FREC_C.Rust 0206.JPG,Apple___Cedar_apple_rust,Apple___Cedar_apple_rust:::11.0
+data/PlantVillage-apple/raw/color/Apple___Cedar_apple_rust/fcf12448-e50c-45a6-a70c-ea8a60ebb6ac___FREC_C.Rust 0204.JPG,Apple___Cedar_apple_rust,Apple___Cedar_apple_rust:::11.0
+data/PlantVillage-apple/raw/color/Apple___Cedar_apple_rust/3762c9a3-83db-44b7-88be-07c048ad293b___FREC_C.Rust 9945.JPG,Apple___Cedar_apple_rust,Apple___Cedar_apple_rust:::66.0
+data/PlantVillage-apple/raw/color/Apple___Cedar_apple_rust/4fd1cebf-96dd-4786-b1df-021dac153ca7___FREC_C.Rust 9953.JPG,Apple___Cedar_apple_rust,Apple___Cedar_apple_rust:::66.0
+data/PlantVillage-apple/raw/color/Apple___Cedar_apple_rust/dc75b693-0cd6-4a48-b0a0-e442070df2cc___FREC_C.Rust 9951.JPG,Apple___Cedar_apple_rust,Apple___Cedar_apple_rust:::66.0
+data/PlantVillage-apple/raw/color/Apple___Cedar_apple_rust/ffd73dc5-8b5b-4d7b-b44d-640ae3489190___FREC_C.Rust 9944.JPG,Apple___Cedar_apple_rust,Apple___Cedar_apple_rust:::66.0
+data/PlantVillage-apple/raw/color/Apple___healthy/3aff0cab-c5f0-4fd5-8a7a-2a81160da701___RS_HL 7392.JPG,Apple___healthy,Apple___healthy:::148.0
+data/PlantVillage-apple/raw/color/Apple___healthy/86e79f38-1fcf-4581-945d-5a28ed6d6852___RS_HL 7391.JPG,Apple___healthy,Apple___healthy:::148.0
+data/PlantVillage-apple/raw/color/Apple___healthy/af109f85-cfe8-4547-a642-10fd10a2b79b___RS_HL 7393.JPG,Apple___healthy,Apple___healthy:::148.0
+data/PlantVillage-apple/raw/color/Apple___healthy/bcd55989-eab4-4d03-8fe2-2f24ba37c637___RS_HL 7394.JPG,Apple___healthy,Apple___healthy:::148.0
+data/PlantVillage-apple/raw/color/Apple___healthy/bd910a05-42d0-4e01-9d88-0c8577ccdbe2___RS_HL 7396.JPG,Apple___healthy,Apple___healthy:::148.0
+data/PlantVillage-apple/raw/color/Apple___healthy/c2498e7d-1a61-467a-9de9-800bab0e69bb___RS_HL 7395.JPG,Apple___healthy,Apple___healthy:::148.0
+data/PlantVillage-apple/raw/color/Apple___healthy/ffb59eab-a2c5-471b-96f9-7699d5504b4d___RS_HL 7390.JPG,Apple___healthy,Apple___healthy:::148.0
+data/PlantVillage-apple/raw/color/Apple___healthy/177523d1-d9b9-4ba5-94b9-22d5832aa664___RS_HL 5762.JPG,Apple___healthy,Apple___healthy:::21.0
+data/PlantVillage-apple/raw/color/Apple___healthy/66b2ddc7-46d8-487c-a93b-43d4332b7a31___RS_HL 5764.JPG,Apple___healthy,Apple___healthy:::21.0
+data/PlantVillage-apple/raw/color/Apple___healthy/72910301-856e-491d-b929-efdc81bb3eb5___RS_HL 5765.JPG,Apple___healthy,Apple___healthy:::21.0
+data/PlantVillage-apple/raw/color/Apple___healthy/7569e8c8-96c8-4d87-8bcd-139566dd4d87___RS_HL 5763.JPG,Apple___healthy,Apple___healthy:::21.0
+data/PlantVillage-apple/raw/color/Apple___healthy/8558ed98-6e99-4d7e-98e1-9437bd4d2382___RS_HL 5766.JPG,Apple___healthy,Apple___healthy:::21.0
+data/PlantVillage-apple/raw/color/Apple___healthy/fc90f3d6-25bc-445e-b418-a5df46878d67___RS_HL 5767.JPG,Apple___healthy,Apple___healthy:::21.0
+data/PlantVillage-apple/raw/color/Apple___healthy/16590622-481b-4f63-ac18-7f590f6af49a___RS_HL 7846.JPG,Apple___healthy,Apple___healthy:::210.0
+data/PlantVillage-apple/raw/color/Apple___healthy/1f2a82f5-af63-46b8-9c18-d8b9567db343___RS_HL 7849.JPG,Apple___healthy,Apple___healthy:::210.0
+data/PlantVillage-apple/raw/color/Apple___healthy/2b21526f-9ab0-444b-829a-fa97cd727733___RS_HL 7844.JPG,Apple___healthy,Apple___healthy:::210.0
+data/PlantVillage-apple/raw/color/Apple___healthy/75bc8098-3ccc-4cc5-aff0-ce68b4fa2b82___RS_HL 7845.JPG,Apple___healthy,Apple___healthy:::210.0
+data/PlantVillage-apple/raw/color/Apple___healthy/a0c5f687-6807-44a3-8a74-faa5ab3d95bd___RS_HL 7850.JPG,Apple___healthy,Apple___healthy:::210.0
+data/PlantVillage-apple/raw/color/Apple___healthy/d321145e-6ab0-4ad2-8109-f34ee4389149___RS_HL 7848.JPG,Apple___healthy,Apple___healthy:::210.0
+data/PlantVillage-apple/raw/color/Apple___healthy/f822b7fc-c28b-4fd8-8cde-037ed35c0b08___RS_HL 7847.JPG,Apple___healthy,Apple___healthy:::210.0
+data/PlantVillage-apple/raw/color/Apple___healthy/04d4f065-5cb8-4122-b479-d1362d007276___RS_HL 7719.JPG,Apple___healthy,Apple___healthy:::193.0
+data/PlantVillage-apple/raw/color/Apple___healthy/1a1937a5-c204-4bde-8f70-58b619125c88___RS_HL 7722.JPG,Apple___healthy,Apple___healthy:::193.0
+data/PlantVillage-apple/raw/color/Apple___healthy/34b8de2a-d30e-4e52-8269-d65cc4e444f6___RS_HL 7717.JPG,Apple___healthy,Apple___healthy:::193.0
+data/PlantVillage-apple/raw/color/Apple___healthy/514b3065-844b-40c8-8a86-043200a1779e___RS_HL 7721.JPG,Apple___healthy,Apple___healthy:::193.0
+data/PlantVillage-apple/raw/color/Apple___healthy/638ea400-bbc7-4642-b7f3-f57e2f3409cb___RS_HL 7718.JPG,Apple___healthy,Apple___healthy:::193.0
+data/PlantVillage-apple/raw/color/Apple___healthy/801feab6-e225-4ce5-8bf0-6fb44a767045___RS_HL 7723.JPG,Apple___healthy,Apple___healthy:::193.0
+data/PlantVillage-apple/raw/color/Apple___healthy/c419612e-2fa8-4d25-96c5-0bf68b3c7205___RS_HL 7720.JPG,Apple___healthy,Apple___healthy:::193.0
+data/PlantVillage-apple/raw/color/Apple___healthy/0f33804a-5389-49cc-abb1-c414b243991b___RS_HL 7321.JPG,Apple___healthy,Apple___healthy:::137.0
+data/PlantVillage-apple/raw/color/Apple___healthy/3bde3d8d-8a44-4e06-9492-a54a9844bf90___RS_HL 7318.JPG,Apple___healthy,Apple___healthy:::137.0
+data/PlantVillage-apple/raw/color/Apple___healthy/3ee70760-b734-43e2-b29b-aee4daafe6cd___RS_HL 7317.JPG,Apple___healthy,Apple___healthy:::137.0
+data/PlantVillage-apple/raw/color/Apple___healthy/41a4e6fd-7e26-4c73-ac08-bcfffda53c0f___RS_HL 7322.JPG,Apple___healthy,Apple___healthy:::137.0
+data/PlantVillage-apple/raw/color/Apple___healthy/818082df-492c-4c5e-a3bb-a3153818d816___RS_HL 7319.JPG,Apple___healthy,Apple___healthy:::137.0
+data/PlantVillage-apple/raw/color/Apple___healthy/83e52e5f-0192-4cf9-b513-651040367ed8___RS_HL 7320.JPG,Apple___healthy,Apple___healthy:::137.0
+data/PlantVillage-apple/raw/color/Apple___healthy/f2e86675-cb7b-4d8a-9400-9b844ccc3f9e___RS_HL 7323.JPG,Apple___healthy,Apple___healthy:::137.0
+data/PlantVillage-apple/raw/color/Apple___healthy/0c30f1f2-9eed-4861-bf66-eceae1b0b625___RS_HL 7430.JPG,Apple___healthy,Apple___healthy:::153.0
+data/PlantVillage-apple/raw/color/Apple___healthy/3bfeaca2-de0b-4a2c-adc0-06adc87a1386___RS_HL 7425.JPG,Apple___healthy,Apple___healthy:::153.0
+data/PlantVillage-apple/raw/color/Apple___healthy/68d3346d-11c5-4ad7-ba09-2f616dde3848___RS_HL 7428.JPG,Apple___healthy,Apple___healthy:::153.0
+data/PlantVillage-apple/raw/color/Apple___healthy/6b11324f-6b70-40d7-9cd2-f7d36b0c69cd___RS_HL 7431.JPG,Apple___healthy,Apple___healthy:::153.0
+data/PlantVillage-apple/raw/color/Apple___healthy/d1dd75fa-e0f8-4942-b530-5f6371ac9bc8___RS_HL 7427.JPG,Apple___healthy,Apple___healthy:::153.0
+data/PlantVillage-apple/raw/color/Apple___healthy/d496c802-e976-49b5-af09-b698fcf991f7___RS_HL 7429.JPG,Apple___healthy,Apple___healthy:::153.0
+data/PlantVillage-apple/raw/color/Apple___healthy/f584ed58-5d11-42b2-8d84-0bd0108ed2c9___RS_HL 7426.JPG,Apple___healthy,Apple___healthy:::153.0
+data/PlantVillage-apple/raw/color/Apple___healthy/594c429c-488e-4d8e-9b44-c3929cecafc9___RS_HL 5878.JPG,Apple___healthy,Apple___healthy:::40.0
+data/PlantVillage-apple/raw/color/Apple___healthy/735b41f2-e433-4ca1-98eb-85b9af69a7bc___RS_HL 5879.JPG,Apple___healthy,Apple___healthy:::40.0
+data/PlantVillage-apple/raw/color/Apple___healthy/7dd45aba-e6cc-4ef9-a52c-5223c2e6b0ea___RS_HL 5877.JPG,Apple___healthy,Apple___healthy:::40.0
+data/PlantVillage-apple/raw/color/Apple___healthy/7e582ef9-de24-4f2d-bfd7-a9c79dd4fb1f___RS_HL 5881.JPG,Apple___healthy,Apple___healthy:::40.0
+data/PlantVillage-apple/raw/color/Apple___healthy/d454a4da-a867-45f8-962e-465946df58c9___RS_HL 5876.JPG,Apple___healthy,Apple___healthy:::40.0
+data/PlantVillage-apple/raw/color/Apple___healthy/e439a002-e035-401e-a1aa-77f99fbd65ad___RS_HL 5880.JPG,Apple___healthy,Apple___healthy:::40.0
+data/PlantVillage-apple/raw/color/Apple___healthy/00907d8b-6ae6-4306-bfd7-d54471981a86___RS_HL 5709.JPG,Apple___healthy,Apple___healthy:::12.0
+data/PlantVillage-apple/raw/color/Apple___healthy/41628932-5547-443e-8659-ed8ad6be820e___RS_HL 5711.JPG,Apple___healthy,Apple___healthy:::12.0
+data/PlantVillage-apple/raw/color/Apple___healthy/88076c11-c60e-4aea-afca-a1f1187eff0a___RS_HL 5706.JPG,Apple___healthy,Apple___healthy:::12.0
+data/PlantVillage-apple/raw/color/Apple___healthy/94e40c05-1631-42bc-99b8-ec4afafd8d7b___RS_HL 5710.JPG,Apple___healthy,Apple___healthy:::12.0
+data/PlantVillage-apple/raw/color/Apple___healthy/c96313e1-59f4-4c05-ba19-a03a613b7d6c___RS_HL 5707.JPG,Apple___healthy,Apple___healthy:::12.0
+data/PlantVillage-apple/raw/color/Apple___healthy/dbea92a9-9473-4cb1-b181-341789de0681___RS_HL 5708.JPG,Apple___healthy,Apple___healthy:::12.0
+data/PlantVillage-apple/raw/color/Apple___healthy/0eeeccc7-f3fb-4b7a-90ec-750fbf10f7e6___RS_HL 6249.JPG,Apple___healthy,Apple___healthy:::101.0
+data/PlantVillage-apple/raw/color/Apple___healthy/828a6b50-e2fb-4e63-a595-556aa41d43a7___RS_HL 6250.JPG,Apple___healthy,Apple___healthy:::101.0
+data/PlantVillage-apple/raw/color/Apple___healthy/86abe4bd-80fd-4a65-ba6f-fd48e6d51119___RS_HL 6251.JPG,Apple___healthy,Apple___healthy:::101.0
+data/PlantVillage-apple/raw/color/Apple___healthy/d3647b4c-45d8-4366-8e93-baf1310072ba___RS_HL 6248.JPG,Apple___healthy,Apple___healthy:::101.0
+data/PlantVillage-apple/raw/color/Apple___healthy/e30f75c3-08c7-47fa-ae3c-7e1e3e782583___RS_HL 6247.JPG,Apple___healthy,Apple___healthy:::101.0
+data/PlantVillage-apple/raw/color/Apple___healthy/010125c0-e6f2-4f3d-b469-dd98ffecbb01___RS_HL 7948.JPG,Apple___healthy,Apple___healthy:::223.0
+data/PlantVillage-apple/raw/color/Apple___healthy/230a4c38-8e59-4c1d-bda8-ee3401e6507b___RS_HL 7945.JPG,Apple___healthy,Apple___healthy:::223.0
+data/PlantVillage-apple/raw/color/Apple___healthy/5b0eb6d3-92f9-4332-8228-6c587810f9c6___RS_HL 7949.JPG,Apple___healthy,Apple___healthy:::223.0
+data/PlantVillage-apple/raw/color/Apple___healthy/65f9450e-cd32-465c-b2cd-e24111798fb1___RS_HL 7950.JPG,Apple___healthy,Apple___healthy:::223.0
+data/PlantVillage-apple/raw/color/Apple___healthy/a50556b8-e947-45f6-8b4e-6574ddab1903___RS_HL 7944.JPG,Apple___healthy,Apple___healthy:::223.0
+data/PlantVillage-apple/raw/color/Apple___healthy/d2fe5d37-e8e1-42b2-a24b-875fb2527675___RS_HL 7947.JPG,Apple___healthy,Apple___healthy:::223.0
+data/PlantVillage-apple/raw/color/Apple___healthy/e10f9ab3-4775-4947-920a-d272329ae225___RS_HL 7946.JPG,Apple___healthy,Apple___healthy:::223.0
+data/PlantVillage-apple/raw/color/Apple___healthy/236eab7b-6301-4764-8e70-7b3b87ecc904___RS_HL 8147.JPG,Apple___healthy,Apple___healthy:::249.0
+data/PlantVillage-apple/raw/color/Apple___healthy/3829531e-aa99-481f-ab73-23690ea06417___RS_HL 8144.JPG,Apple___healthy,Apple___healthy:::249.0
+data/PlantVillage-apple/raw/color/Apple___healthy/ac49a568-aa04-4c08-88a6-d1551e3f41ca___RS_HL 8146.JPG,Apple___healthy,Apple___healthy:::249.0
+data/PlantVillage-apple/raw/color/Apple___healthy/b228e0e9-6082-4f02-a31e-11077fff799a___RS_HL 8143.JPG,Apple___healthy,Apple___healthy:::249.0
+data/PlantVillage-apple/raw/color/Apple___healthy/c3dfce5d-2232-4b97-8821-6f5c32553fb7___RS_HL 8149.JPG,Apple___healthy,Apple___healthy:::249.0
+data/PlantVillage-apple/raw/color/Apple___healthy/d40c491e-7efa-4e8e-865a-fc2e5a240a66___RS_HL 8148.JPG,Apple___healthy,Apple___healthy:::249.0
+data/PlantVillage-apple/raw/color/Apple___healthy/fdc0d1ae-70a8-40a6-aab8-2be6c10391a6___RS_HL 8145.JPG,Apple___healthy,Apple___healthy:::249.0
+data/PlantVillage-apple/raw/color/Apple___healthy/122d2ed7-efb5-4a82-a6f0-74e9524e83ff___RS_HL 5702.JPG,Apple___healthy,Apple___healthy:::11.0
+data/PlantVillage-apple/raw/color/Apple___healthy/2922187c-ac88-45e4-96ae-2aa396d50bda___RS_HL 5700.JPG,Apple___healthy,Apple___healthy:::11.0
+data/PlantVillage-apple/raw/color/Apple___healthy/3643fe1d-9523-47cf-9952-7e2ecb027338___RS_HL 5704.JPG,Apple___healthy,Apple___healthy:::11.0
+data/PlantVillage-apple/raw/color/Apple___healthy/752c8f77-8b65-46df-886f-e95346e7856f___RS_HL 5705.JPG,Apple___healthy,Apple___healthy:::11.0
+data/PlantVillage-apple/raw/color/Apple___healthy/d2efd9dd-384c-4ad9-8b41-9780b0ed0c72___RS_HL 5703.JPG,Apple___healthy,Apple___healthy:::11.0
+data/PlantVillage-apple/raw/color/Apple___healthy/dbe783c1-f25b-4c7b-9151-4f4abab0ec31___RS_HL 5701.JPG,Apple___healthy,Apple___healthy:::11.0
+data/PlantVillage-apple/raw/color/Apple___healthy/3b59f785-afa8-4204-b6fd-467404734888___RS_HL 6144.JPG,Apple___healthy,Apple___healthy:::84.0
+data/PlantVillage-apple/raw/color/Apple___healthy/4aa3b2bb-1bd4-410a-bf6b-09862798bf88___RS_HL 6148.JPG,Apple___healthy,Apple___healthy:::84.0
+data/PlantVillage-apple/raw/color/Apple___healthy/4cc430bb-9f3d-4dfc-86c0-0dfdfd71ebb3___RS_HL 6147.JPG,Apple___healthy,Apple___healthy:::84.0
+data/PlantVillage-apple/raw/color/Apple___healthy/9cfb97eb-0e0a-4e55-b25d-d6121ceded58___RS_HL 6146.JPG,Apple___healthy,Apple___healthy:::84.0
+data/PlantVillage-apple/raw/color/Apple___healthy/ad772bfa-6845-4104-8d94-8d3a2adb67c2___RS_HL 6149.JPG,Apple___healthy,Apple___healthy:::84.0
+data/PlantVillage-apple/raw/color/Apple___healthy/f2314f38-fd6f-4bee-b26e-ad095508beab___RS_HL 6145.JPG,Apple___healthy,Apple___healthy:::84.0
+data/PlantVillage-apple/raw/color/Apple___healthy/0eacfbb6-3d68-4a89-b8f8-6b2d328102af___RS_HL 7961.JPG,Apple___healthy,Apple___healthy:::225.0
+data/PlantVillage-apple/raw/color/Apple___healthy/1a905d2f-3b54-41b4-bab8-3c2b0845a91d___RS_HL 7958.JPG,Apple___healthy,Apple___healthy:::225.0
+data/PlantVillage-apple/raw/color/Apple___healthy/1fae0947-05ec-4487-a8d4-5ce3c860a21f___RS_HL 7962.JPG,Apple___healthy,Apple___healthy:::225.0
+data/PlantVillage-apple/raw/color/Apple___healthy/62acb368-c1b6-496c-910d-64cd4b8c5941___RS_HL 7964.JPG,Apple___healthy,Apple___healthy:::225.0
+data/PlantVillage-apple/raw/color/Apple___healthy/a4f33d84-f27c-481d-83ac-9575c8469fe6___RS_HL 7960.JPG,Apple___healthy,Apple___healthy:::225.0
+data/PlantVillage-apple/raw/color/Apple___healthy/b2acd8b3-5156-4568-95e3-b7c6604ce7cc___RS_HL 7959.JPG,Apple___healthy,Apple___healthy:::225.0
+data/PlantVillage-apple/raw/color/Apple___healthy/d91b6c09-9022-4860-98fb-643c0ec85fe3___RS_HL 7965.JPG,Apple___healthy,Apple___healthy:::225.0
+data/PlantVillage-apple/raw/color/Apple___healthy/f3676c6a-f226-4bc7-b3d4-c9537de075f4___RS_HL 7963.JPG,Apple___healthy,Apple___healthy:::225.0
+data/PlantVillage-apple/raw/color/Apple___healthy/1490daeb-9cfb-4456-bb27-dd836f9e07a6___RS_HL 5959.JPG,Apple___healthy,Apple___healthy:::53.0
+data/PlantVillage-apple/raw/color/Apple___healthy/37b9da4a-2823-48fb-ba35-4138a44acf53___RS_HL 5954.JPG,Apple___healthy,Apple___healthy:::53.0
+data/PlantVillage-apple/raw/color/Apple___healthy/4eab95ce-76ec-4bd2-9cc6-f39747569750___RS_HL 5958.JPG,Apple___healthy,Apple___healthy:::53.0
+data/PlantVillage-apple/raw/color/Apple___healthy/7842bd80-8940-4bc3-a3b0-baebe47b6451___RS_HL 5955.JPG,Apple___healthy,Apple___healthy:::53.0
+data/PlantVillage-apple/raw/color/Apple___healthy/d345baff-7be6-45a6-802a-b945b95b5885___RS_HL 5956.JPG,Apple___healthy,Apple___healthy:::53.0
+data/PlantVillage-apple/raw/color/Apple___healthy/faf64a07-ea03-429d-b41d-2a87d2dd066a___RS_HL 5957.JPG,Apple___healthy,Apple___healthy:::53.0
+data/PlantVillage-apple/raw/color/Apple___healthy/129abcae-51bd-43d9-9f30-c4e07523186a___RS_HL 7769.JPG,Apple___healthy,Apple___healthy:::200.0
+data/PlantVillage-apple/raw/color/Apple___healthy/232e37bf-da7c-4c4e-94fd-ce592dd37786___RS_HL 7770.JPG,Apple___healthy,Apple___healthy:::200.0
+data/PlantVillage-apple/raw/color/Apple___healthy/3d300955-5956-4ed8-9348-d2d02388d4d3___RS_HL 7772.JPG,Apple___healthy,Apple___healthy:::200.0
+data/PlantVillage-apple/raw/color/Apple___healthy/4b2958d2-b93d-4ed1-b899-01a6c3a5b8b6___RS_HL 7768.JPG,Apple___healthy,Apple___healthy:::200.0
+data/PlantVillage-apple/raw/color/Apple___healthy/8a5ead41-d268-4bc8-867e-036f90f3d99c___RS_HL 7771.JPG,Apple___healthy,Apple___healthy:::200.0
+data/PlantVillage-apple/raw/color/Apple___healthy/8b258036-674c-4553-8e2c-408d02319a05___RS_HL 7767.JPG,Apple___healthy,Apple___healthy:::200.0
+data/PlantVillage-apple/raw/color/Apple___healthy/e3a3c4f3-12b0-49f2-a14c-c73cdc542e74___RS_HL 7773.JPG,Apple___healthy,Apple___healthy:::200.0
+data/PlantVillage-apple/raw/color/Apple___healthy/7ac83dd1-c411-4348-82d9-f59abcf75924___RS_HL 7245.JPG,Apple___healthy,Apple___healthy:::116.0
+data/PlantVillage-apple/raw/color/Apple___healthy/d5f63752-d817-4b29-a773-f0e87544d61f___RS_HL 7247.JPG,Apple___healthy,Apple___healthy:::116.0
+data/PlantVillage-apple/raw/color/Apple___healthy/d6318793-dacc-4b58-bb19-043324042180___RS_HL 7246.JPG,Apple___healthy,Apple___healthy:::116.0
+data/PlantVillage-apple/raw/color/Apple___healthy/298c8daf-43cc-4f65-b2db-65623425e5f8___RS_HL 6103.JPG,Apple___healthy,Apple___healthy:::77.0
+data/PlantVillage-apple/raw/color/Apple___healthy/51cb81e8-dd15-40cd-b4f2-5287379dfe74___RS_HL 6104.JPG,Apple___healthy,Apple___healthy:::77.0
+data/PlantVillage-apple/raw/color/Apple___healthy/70bfc07a-818d-44fd-bd98-fc779161abce___RS_HL 6105.JPG,Apple___healthy,Apple___healthy:::77.0
+data/PlantVillage-apple/raw/color/Apple___healthy/82d55fb4-a8df-439a-9935-5e5f72b05383___RS_HL 6107.JPG,Apple___healthy,Apple___healthy:::77.0
+data/PlantVillage-apple/raw/color/Apple___healthy/a01b22a2-292a-485e-ad7d-ee14de31506c___RS_HL 6102.JPG,Apple___healthy,Apple___healthy:::77.0
+data/PlantVillage-apple/raw/color/Apple___healthy/be58ce4e-6678-4315-8786-31bd39e11909___RS_HL 6106.JPG,Apple___healthy,Apple___healthy:::77.0
+data/PlantVillage-apple/raw/color/Apple___healthy/3ee00792-0430-445e-8c25-970607d2759d___RS_HL 7810.JPG,Apple___healthy,Apple___healthy:::205.0
+data/PlantVillage-apple/raw/color/Apple___healthy/65a6d1f7-616e-40b7-8ebb-8b895c69a7dd___RS_HL 7813.JPG,Apple___healthy,Apple___healthy:::205.0
+data/PlantVillage-apple/raw/color/Apple___healthy/6a2b2664-0e91-455c-8978-64c097631604___RS_HL 7808.JPG,Apple___healthy,Apple___healthy:::205.0
+data/PlantVillage-apple/raw/color/Apple___healthy/a4c3d6d2-cc69-4d8e-acc9-0e648df959ef___RS_HL 7806.JPG,Apple___healthy,Apple___healthy:::205.0
+data/PlantVillage-apple/raw/color/Apple___healthy/ad7674f8-ff0c-43f8-9bb7-1c347ba197fe___RS_HL 7812.JPG,Apple___healthy,Apple___healthy:::205.0
+data/PlantVillage-apple/raw/color/Apple___healthy/c81e4d98-e76b-48cf-b03a-2ad382d19842___RS_HL 7807.JPG,Apple___healthy,Apple___healthy:::205.0
+data/PlantVillage-apple/raw/color/Apple___healthy/f205d63f-9621-4509-b6e9-6d0ec7e3a402___RS_HL 7811.JPG,Apple___healthy,Apple___healthy:::205.0
+data/PlantVillage-apple/raw/color/Apple___healthy/fa6db5ca-4c60-4ab4-8c23-b6bb852eafbe___RS_HL 7809.JPG,Apple___healthy,Apple___healthy:::205.0
+data/PlantVillage-apple/raw/color/Apple___healthy/11c35e07-255e-42cf-b8e9-4533c35ce2c6___RS_HL 7500.JPG,Apple___healthy,Apple___healthy:::163.0
+data/PlantVillage-apple/raw/color/Apple___healthy/1598eb2e-21c6-4fda-9080-945551c7f2ee___RS_HL 7501.JPG,Apple___healthy,Apple___healthy:::163.0
+data/PlantVillage-apple/raw/color/Apple___healthy/1ff38f29-401d-4ec7-a99a-c4d3ccf42efc___RS_HL 7498.JPG,Apple___healthy,Apple___healthy:::163.0
+data/PlantVillage-apple/raw/color/Apple___healthy/37715958-a2d4-41d6-9672-9cafd0f1c146___RS_HL 7502.JPG,Apple___healthy,Apple___healthy:::163.0
+data/PlantVillage-apple/raw/color/Apple___healthy/4ddc6bdf-fa72-43ff-99df-36430b318df4___RS_HL 7499.JPG,Apple___healthy,Apple___healthy:::163.0
+data/PlantVillage-apple/raw/color/Apple___healthy/dd296b3c-b97a-4af0-b9f2-3085b1e8b35a___RS_HL 7503.JPG,Apple___healthy,Apple___healthy:::163.0
+data/PlantVillage-apple/raw/color/Apple___healthy/09293103-81bd-45ef-b3ce-d163441d6b18___RS_HL 7337.JPG,Apple___healthy,Apple___healthy:::140.0
+data/PlantVillage-apple/raw/color/Apple___healthy/229d89f1-b2ac-4427-b7e7-47139f62b73d___RS_HL 7341.JPG,Apple___healthy,Apple___healthy:::140.0
+data/PlantVillage-apple/raw/color/Apple___healthy/4d6b1b98-2f9a-454d-9ac9-37433c715920___RS_HL 7338.JPG,Apple___healthy,Apple___healthy:::140.0
+data/PlantVillage-apple/raw/color/Apple___healthy/590363be-ab1f-4d0e-87a5-d632b28d79e0___RS_HL 7334.JPG,Apple___healthy,Apple___healthy:::140.0
+data/PlantVillage-apple/raw/color/Apple___healthy/62e8755e-c7c8-4eb9-b937-4dd4f1e14723___RS_HL 7339.JPG,Apple___healthy,Apple___healthy:::140.0
+data/PlantVillage-apple/raw/color/Apple___healthy/68bec77e-3c62-4ea5-85e4-fa29068ebb34___RS_HL 7340.JPG,Apple___healthy,Apple___healthy:::140.0
+data/PlantVillage-apple/raw/color/Apple___healthy/bd44da3a-be59-458e-a81b-cf8f9d38724d___RS_HL 7336.JPG,Apple___healthy,Apple___healthy:::140.0
+data/PlantVillage-apple/raw/color/Apple___healthy/d9cf36cf-9ce1-4846-927e-17287008563e___RS_HL 7335.JPG,Apple___healthy,Apple___healthy:::140.0
+data/PlantVillage-apple/raw/color/Apple___healthy/0cfa2ddf-56d9-4f62-89a4-f74e220f1859___RS_HL 6196.JPG,Apple___healthy,Apple___healthy:::92.0
+data/PlantVillage-apple/raw/color/Apple___healthy/4ddf9e55-b678-4036-87c3-66076035cbe2___RS_HL 6194.JPG,Apple___healthy,Apple___healthy:::92.0
+data/PlantVillage-apple/raw/color/Apple___healthy/5d542bd8-d3c1-484e-9cc1-e7c409aff1f8___RS_HL 6197.JPG,Apple___healthy,Apple___healthy:::92.0
+data/PlantVillage-apple/raw/color/Apple___healthy/786696fd-ef1f-4e75-9ddd-250b628d9fe3___RS_HL 6199.JPG,Apple___healthy,Apple___healthy:::92.0
+data/PlantVillage-apple/raw/color/Apple___healthy/c023b0a2-5c8b-448f-9735-2e11a7a389ec___RS_HL 6198.JPG,Apple___healthy,Apple___healthy:::92.0
+data/PlantVillage-apple/raw/color/Apple___healthy/f6424729-cfe4-4f67-bd16-d4c5c84daaa0___RS_HL 6195.JPG,Apple___healthy,Apple___healthy:::92.0
+data/PlantVillage-apple/raw/color/Apple___healthy/ba1c31ed-0786-4d38-97dc-99c28fb61e64___RS_HL 7289.JPG,Apple___healthy,Apple___healthy:::130.0
+data/PlantVillage-apple/raw/color/Apple___healthy/c9ecb848-37bb-4076-9f57-c1bbe22dbec2___RS_HL 7288.JPG,Apple___healthy,Apple___healthy:::130.0
+data/PlantVillage-apple/raw/color/Apple___healthy/e4bca84a-8bf3-477f-8c67-208f7484b0af___RS_HL 7287.JPG,Apple___healthy,Apple___healthy:::130.0
+data/PlantVillage-apple/raw/color/Apple___healthy/08da0395-feee-4f66-b88b-2fa171d9521d___RS_HL 7779.JPG,Apple___healthy,Apple___healthy:::201.0
+data/PlantVillage-apple/raw/color/Apple___healthy/0bc2127e-99b9-44ea-bb2b-4e1b0b0f7624___RS_HL 7777.JPG,Apple___healthy,Apple___healthy:::201.0
+data/PlantVillage-apple/raw/color/Apple___healthy/3876f449-0cd6-4910-9321-f56a28621c51___RS_HL 7775.JPG,Apple___healthy,Apple___healthy:::201.0
+data/PlantVillage-apple/raw/color/Apple___healthy/55e3aeb1-2c97-4cdd-9b75-8ab8d94c8447___RS_HL 7778.JPG,Apple___healthy,Apple___healthy:::201.0
+data/PlantVillage-apple/raw/color/Apple___healthy/56c024f5-844e-47d0-a936-d1617219125c___RS_HL 7776.JPG,Apple___healthy,Apple___healthy:::201.0
+data/PlantVillage-apple/raw/color/Apple___healthy/68fdb88e-755a-47c3-8e60-600533b8a53c___RS_HL 7780.JPG,Apple___healthy,Apple___healthy:::201.0
+data/PlantVillage-apple/raw/color/Apple___healthy/8e11b695-ac84-42c4-926a-b48b311bcfe8___RS_HL 7782.JPG,Apple___healthy,Apple___healthy:::201.0
+data/PlantVillage-apple/raw/color/Apple___healthy/c9fff3f0-930b-41e7-889d-8e60e0b720cd___RS_HL 7781.JPG,Apple___healthy,Apple___healthy:::201.0
+data/PlantVillage-apple/raw/color/Apple___healthy/e0b3b9e7-70ab-4cd5-ba2f-2924568dc837___RS_HL 7774.JPG,Apple___healthy,Apple___healthy:::201.0
+data/PlantVillage-apple/raw/color/Apple___healthy/168d6d21-9d72-43c0-acca-b216f64ee87b___RS_HL 7942.JPG,Apple___healthy,Apple___healthy:::222.0
+data/PlantVillage-apple/raw/color/Apple___healthy/768f1904-8365-4d72-aa84-87d9f09ef2d5___RS_HL 7937.JPG,Apple___healthy,Apple___healthy:::222.0
+data/PlantVillage-apple/raw/color/Apple___healthy/872f47c5-4779-4ebc-8102-ee38e695f0d3___RS_HL 7943.JPG,Apple___healthy,Apple___healthy:::222.0
+data/PlantVillage-apple/raw/color/Apple___healthy/9f288c49-e11c-4054-9a44-b5e81e39427a___RS_HL 7938.JPG,Apple___healthy,Apple___healthy:::222.0
+data/PlantVillage-apple/raw/color/Apple___healthy/bcc124a4-afd2-4663-86ff-5eef7101bf02___RS_HL 7939.JPG,Apple___healthy,Apple___healthy:::222.0
+data/PlantVillage-apple/raw/color/Apple___healthy/f0033a40-7a27-46e8-bf31-5af5cd0a9691___RS_HL 7941.JPG,Apple___healthy,Apple___healthy:::222.0
+data/PlantVillage-apple/raw/color/Apple___healthy/f0cc8fe8-a9ec-42bb-83b7-274f8f5f00f0___RS_HL 7940.JPG,Apple___healthy,Apple___healthy:::222.0
+data/PlantVillage-apple/raw/color/Apple___healthy/13575fc3-1674-4511-a124-2ed065f00cda___RS_HL 7351.JPG,Apple___healthy,Apple___healthy:::142.0
+data/PlantVillage-apple/raw/color/Apple___healthy/281380c3-d61a-442c-8e1a-a8058645ff01___RS_HL 7350.JPG,Apple___healthy,Apple___healthy:::142.0
+data/PlantVillage-apple/raw/color/Apple___healthy/3fdbd8fe-f026-4fef-b02d-b451fb60cb86___RS_HL 7353.JPG,Apple___healthy,Apple___healthy:::142.0
+data/PlantVillage-apple/raw/color/Apple___healthy/9284bd52-df45-4fc3-aaa6-4323666b41c4___RS_HL 7348.JPG,Apple___healthy,Apple___healthy:::142.0
+data/PlantVillage-apple/raw/color/Apple___healthy/c6d3d356-50ed-4d65-8d29-e1b1b9f8f478___RS_HL 7347.JPG,Apple___healthy,Apple___healthy:::142.0
+data/PlantVillage-apple/raw/color/Apple___healthy/dfe47262-125f-4452-ab64-3c445b386061___RS_HL 7349.JPG,Apple___healthy,Apple___healthy:::142.0
+data/PlantVillage-apple/raw/color/Apple___healthy/f0fb0e55-8a67-4df0-be6f-90913f64bc28___RS_HL 7352.JPG,Apple___healthy,Apple___healthy:::142.0
+data/PlantVillage-apple/raw/color/Apple___healthy/0f56566e-6151-4ede-b10b-2b1f04f23659___RS_HL 7359.JPG,Apple___healthy,Apple___healthy:::143.0
+data/PlantVillage-apple/raw/color/Apple___healthy/101c9dba-0628-40fd-a4af-cb7f4848d414___RS_HL 7358.JPG,Apple___healthy,Apple___healthy:::143.0
+data/PlantVillage-apple/raw/color/Apple___healthy/1cbe6aef-57d4-4f2a-b8fb-0375db7084d3___RS_HL 7356.JPG,Apple___healthy,Apple___healthy:::143.0
+data/PlantVillage-apple/raw/color/Apple___healthy/7007d57a-a05a-41b5-a80f-9fe33debaf1a___RS_HL 7354.JPG,Apple___healthy,Apple___healthy:::143.0
+data/PlantVillage-apple/raw/color/Apple___healthy/a88f01ad-8550-49f1-9757-e9e9649d81b2___RS_HL 7360.JPG,Apple___healthy,Apple___healthy:::143.0
+data/PlantVillage-apple/raw/color/Apple___healthy/d82119e5-4ee9-4523-9e08-e827d2df02cb___RS_HL 7355.JPG,Apple___healthy,Apple___healthy:::143.0
+data/PlantVillage-apple/raw/color/Apple___healthy/fe768ce6-56c8-408f-921d-7c7d991bb742___RS_HL 7357.JPG,Apple___healthy,Apple___healthy:::143.0
+data/PlantVillage-apple/raw/color/Apple___healthy/04032305-5ca9-4110-b517-461f13c95f18___RS_HL 7446.JPG,Apple___healthy,Apple___healthy:::156.0
+data/PlantVillage-apple/raw/color/Apple___healthy/32da947b-7d05-459b-a5dc-b4481bb09f48___RS_HL 7450.JPG,Apple___healthy,Apple___healthy:::156.0
+data/PlantVillage-apple/raw/color/Apple___healthy/63f2f961-ac3f-4a2d-9fc1-6987e8da97cc___RS_HL 7447.JPG,Apple___healthy,Apple___healthy:::156.0
+data/PlantVillage-apple/raw/color/Apple___healthy/9130029f-854a-4099-bc98-74170edfb660___RS_HL 7448.JPG,Apple___healthy,Apple___healthy:::156.0
+data/PlantVillage-apple/raw/color/Apple___healthy/95e92b80-49d6-4589-95ad-be379775d193___RS_HL 7451.JPG,Apple___healthy,Apple___healthy:::156.0
+data/PlantVillage-apple/raw/color/Apple___healthy/ed921a4f-b7a5-4086-bcab-cbfe7a97d053___RS_HL 7449.JPG,Apple___healthy,Apple___healthy:::156.0
+data/PlantVillage-apple/raw/color/Apple___healthy/07778a5c-8037-425f-aa83-d10b1e1d5db4___RS_HL 7269.JPG,Apple___healthy,Apple___healthy:::123.0
+data/PlantVillage-apple/raw/color/Apple___healthy/2836a80f-2aa7-46b1-8d64-0cf10037eb67___RS_HL 7268.JPG,Apple___healthy,Apple___healthy:::123.0
+data/PlantVillage-apple/raw/color/Apple___healthy/0ce497e6-8184-4ef6-9a9f-c46b66c898c3___RS_HL 6036.JPG,Apple___healthy,Apple___healthy:::66.0
+data/PlantVillage-apple/raw/color/Apple___healthy/4839a9b1-c89f-475c-849f-c40c44e9cfff___RS_HL 6040.JPG,Apple___healthy,Apple___healthy:::66.0
+data/PlantVillage-apple/raw/color/Apple___healthy/4a99390b-e2ee-4941-a14f-37575ada3004___RS_HL 6039.JPG,Apple___healthy,Apple___healthy:::66.0
+data/PlantVillage-apple/raw/color/Apple___healthy/61cc71ec-5d4d-4c85-939b-77e8cd75fafe___RS_HL 6038.JPG,Apple___healthy,Apple___healthy:::66.0
+data/PlantVillage-apple/raw/color/Apple___healthy/c09a02e7-f47a-4dea-b648-eaad0d9f3df1___RS_HL 6037.JPG,Apple___healthy,Apple___healthy:::66.0
+data/PlantVillage-apple/raw/color/Apple___healthy/da91e28c-3e10-406c-be5c-d10afd8e183d___RS_HL 6041.JPG,Apple___healthy,Apple___healthy:::66.0
+data/PlantVillage-apple/raw/color/Apple___healthy/02847045-4405-467c-9ccb-7ba2ab1d574c___RS_HL 5943.JPG,Apple___healthy,Apple___healthy:::51.0
+data/PlantVillage-apple/raw/color/Apple___healthy/13866bf5-0193-41b4-8e26-cb09d35e8697___RS_HL 5945.JPG,Apple___healthy,Apple___healthy:::51.0
+data/PlantVillage-apple/raw/color/Apple___healthy/2c7fe12b-945d-4828-a327-fc17eb0c4afc___RS_HL 5942.JPG,Apple___healthy,Apple___healthy:::51.0
+data/PlantVillage-apple/raw/color/Apple___healthy/ab23fdc9-8036-47f2-a32b-b3facb13fd5b___RS_HL 5947.JPG,Apple___healthy,Apple___healthy:::51.0
+data/PlantVillage-apple/raw/color/Apple___healthy/b2187f22-a9bf-47e1-8b92-b12af779833f___RS_HL 5944.JPG,Apple___healthy,Apple___healthy:::51.0
+data/PlantVillage-apple/raw/color/Apple___healthy/f4b6cf56-ec35-43f4-b5e4-eebf509c9580___RS_HL 5946.JPG,Apple___healthy,Apple___healthy:::51.0
+data/PlantVillage-apple/raw/color/Apple___healthy/526782c6-8d24-4438-8255-37422811d33f___RS_HL 7601.JPG,Apple___healthy,Apple___healthy:::177.0
+data/PlantVillage-apple/raw/color/Apple___healthy/62d3964c-3cc9-495c-94d5-0558f5fe3063___RS_HL 7607.JPG,Apple___healthy,Apple___healthy:::177.0
+data/PlantVillage-apple/raw/color/Apple___healthy/7b0dc46f-4bfd-4329-85a3-06db12434d3a___RS_HL 7603.JPG,Apple___healthy,Apple___healthy:::177.0
+data/PlantVillage-apple/raw/color/Apple___healthy/bbc953a4-7860-4273-a653-6697a53c74e2___RS_HL 7606.JPG,Apple___healthy,Apple___healthy:::177.0
+data/PlantVillage-apple/raw/color/Apple___healthy/d22b7ff6-c7a8-4c8a-b398-918ea6009893___RS_HL 7604.JPG,Apple___healthy,Apple___healthy:::177.0
+data/PlantVillage-apple/raw/color/Apple___healthy/eabe5670-2b40-4677-bc58-b30410ddbab0___RS_HL 7605.JPG,Apple___healthy,Apple___healthy:::177.0
+data/PlantVillage-apple/raw/color/Apple___healthy/f71f7765-379e-407d-911a-ef80cfde5c1d___RS_HL 7602.JPG,Apple___healthy,Apple___healthy:::177.0
+data/PlantVillage-apple/raw/color/Apple___healthy/133aae4b-64c8-4def-8f1d-cdc4e1bb73a7___RS_HL 6180.JPG,Apple___healthy,Apple___healthy:::89.0
+data/PlantVillage-apple/raw/color/Apple___healthy/50477370-452c-4dd9-bdad-f270011e9094___RS_HL 6183.JPG,Apple___healthy,Apple___healthy:::89.0
+data/PlantVillage-apple/raw/color/Apple___healthy/8c00f0dd-bcef-4188-a270-91e563d7b18b___RS_HL 6182.JPG,Apple___healthy,Apple___healthy:::89.0
+data/PlantVillage-apple/raw/color/Apple___healthy/c25d42b9-915a-442d-bdae-d1405e76b8a8___RS_HL 6179.JPG,Apple___healthy,Apple___healthy:::89.0
+data/PlantVillage-apple/raw/color/Apple___healthy/d27854b1-51af-4804-a928-9305d63f2db1___RS_HL 6181.JPG,Apple___healthy,Apple___healthy:::89.0
+data/PlantVillage-apple/raw/color/Apple___healthy/e34850c1-041f-4674-ba19-b3c48956e986___RS_HL 6184.JPG,Apple___healthy,Apple___healthy:::89.0
+data/PlantVillage-apple/raw/color/Apple___healthy/1495b096-6249-4f8c-b9e5-37e09fc21d1a___RS_HL 7716.JPG,Apple___healthy,Apple___healthy:::192.0
+data/PlantVillage-apple/raw/color/Apple___healthy/36b2cda3-5c11-45e2-962e-d9d9ba5a4896___RS_HL 7711.JPG,Apple___healthy,Apple___healthy:::192.0
+data/PlantVillage-apple/raw/color/Apple___healthy/525ecf21-2ca1-4939-b258-6002432703aa___RS_HL 7712.JPG,Apple___healthy,Apple___healthy:::192.0
+data/PlantVillage-apple/raw/color/Apple___healthy/74ac887b-9c88-44bc-8f94-a1da87ccb3ef___RS_HL 7715.JPG,Apple___healthy,Apple___healthy:::192.0
+data/PlantVillage-apple/raw/color/Apple___healthy/ab4fd2f9-da8a-4fe7-9634-50be1efa0730___RS_HL 7714.JPG,Apple___healthy,Apple___healthy:::192.0
+data/PlantVillage-apple/raw/color/Apple___healthy/d4008303-6d94-458e-b0f4-61044cc427ae___RS_HL 7709.JPG,Apple___healthy,Apple___healthy:::192.0
+data/PlantVillage-apple/raw/color/Apple___healthy/edf2aa3e-8736-4931-99dc-4a05252526b6___RS_HL 7710.JPG,Apple___healthy,Apple___healthy:::192.0
+data/PlantVillage-apple/raw/color/Apple___healthy/f1d26177-d15c-43ee-80e5-6246edc6556c___RS_HL 7713.JPG,Apple___healthy,Apple___healthy:::192.0
+data/PlantVillage-apple/raw/color/Apple___healthy/21c10a73-ebeb-4a16-898b-8b39d9d6eca2___RS_HL 6315.JPG,Apple___healthy,Apple___healthy:::112.0
+data/PlantVillage-apple/raw/color/Apple___healthy/45c79d4a-ac12-4bf8-a4d6-f59898aa4570___RS_HL 6317.JPG,Apple___healthy,Apple___healthy:::112.0
+data/PlantVillage-apple/raw/color/Apple___healthy/76598665-5f8b-4e6e-86c4-36d528385387___RS_HL 6312.JPG,Apple___healthy,Apple___healthy:::112.0
+data/PlantVillage-apple/raw/color/Apple___healthy/792beb2d-d492-4a19-aa08-412963b87fc7___RS_HL 6314.JPG,Apple___healthy,Apple___healthy:::112.0
+data/PlantVillage-apple/raw/color/Apple___healthy/bd91bdc8-d23d-4414-94ab-485c2bc509b1___RS_HL 6313.JPG,Apple___healthy,Apple___healthy:::112.0
+data/PlantVillage-apple/raw/color/Apple___healthy/e7ef1fc4-cb01-4be4-98ea-207ec6dfb91a___RS_HL 6316.JPG,Apple___healthy,Apple___healthy:::112.0
+data/PlantVillage-apple/raw/color/Apple___healthy/33acc3da-5f90-49e4-b70d-b3d60921e08e___RS_HL 7263.JPG,Apple___healthy,Apple___healthy:::121.0
+data/PlantVillage-apple/raw/color/Apple___healthy/8b60fc20-52fa-40a2-8d91-367307968f8e___RS_HL 7264.JPG,Apple___healthy,Apple___healthy:::121.0
+data/PlantVillage-apple/raw/color/Apple___healthy/f03b4260-bf5c-41be-a4fe-96a5c341e7fc___RS_HL 7262.JPG,Apple___healthy,Apple___healthy:::121.0
+data/PlantVillage-apple/raw/color/Apple___healthy/1b22388a-cf05-4795-892f-a5b6f35304d5___RS_HL 8141.JPG,Apple___healthy,Apple___healthy:::248.0
+data/PlantVillage-apple/raw/color/Apple___healthy/2e6c2a31-e580-49ad-aa9e-31c11f0ff4b3___RS_HL 8137.JPG,Apple___healthy,Apple___healthy:::248.0
+data/PlantVillage-apple/raw/color/Apple___healthy/2f2f3662-f870-4b42-b00a-cf098b974d85___RS_HL 8140.JPG,Apple___healthy,Apple___healthy:::248.0
+data/PlantVillage-apple/raw/color/Apple___healthy/d05d3b29-86dc-411c-a7c2-ca2f9a784e02___RS_HL 8138.JPG,Apple___healthy,Apple___healthy:::248.0
+data/PlantVillage-apple/raw/color/Apple___healthy/dd4efe08-e387-42e2-9c4c-61b35b09bd0d___RS_HL 8136.JPG,Apple___healthy,Apple___healthy:::248.0
+data/PlantVillage-apple/raw/color/Apple___healthy/e4c6e085-5cc2-4bbb-a43e-3d839724c31d___RS_HL 8139.JPG,Apple___healthy,Apple___healthy:::248.0
+data/PlantVillage-apple/raw/color/Apple___healthy/ee93a9cb-b4e5-4ad6-874b-caff1370f5bd___RS_HL 8142.JPG,Apple___healthy,Apple___healthy:::248.0
+data/PlantVillage-apple/raw/color/Apple___healthy/02a0f44c-9cbe-4a2e-9710-296692635ec6___RS_HL 5789.JPG,Apple___healthy,Apple___healthy:::25.0
+data/PlantVillage-apple/raw/color/Apple___healthy/115ce7f7-f1b1-4f24-a96f-07107c9e703c___RS_HL 5791.JPG,Apple___healthy,Apple___healthy:::25.0
+data/PlantVillage-apple/raw/color/Apple___healthy/3561a457-ec26-442a-925a-cdbe7f37a430___RS_HL 5786.JPG,Apple___healthy,Apple___healthy:::25.0
+data/PlantVillage-apple/raw/color/Apple___healthy/7710d64d-83a3-46af-a9ff-535dd225523f___RS_HL 5788.JPG,Apple___healthy,Apple___healthy:::25.0
+data/PlantVillage-apple/raw/color/Apple___healthy/9ac93ab7-5e33-46f3-9db7-008edcf15f30___RS_HL 5787.JPG,Apple___healthy,Apple___healthy:::25.0
+data/PlantVillage-apple/raw/color/Apple___healthy/a0167593-6219-479d-9e28-161dfea5b19a___RS_HL 5790.JPG,Apple___healthy,Apple___healthy:::25.0
+data/PlantVillage-apple/raw/color/Apple___healthy/234fbf88-be8a-4b45-a93d-493b6e83215c___RS_HL 8182.JPG,Apple___healthy,Apple___healthy:::254.0
+data/PlantVillage-apple/raw/color/Apple___healthy/27af3831-cc86-4c30-96a5-98d5a2375fcd___RS_HL 8183.JPG,Apple___healthy,Apple___healthy:::254.0
+data/PlantVillage-apple/raw/color/Apple___healthy/3b9d4604-18c3-49a7-8ac3-07386ae370fb___RS_HL 8179.JPG,Apple___healthy,Apple___healthy:::254.0
+data/PlantVillage-apple/raw/color/Apple___healthy/6760f8fc-05d5-4cdb-ba7c-4d87d508bb79___RS_HL 8185.JPG,Apple___healthy,Apple___healthy:::254.0
+data/PlantVillage-apple/raw/color/Apple___healthy/686f612d-bb49-409a-8afa-0707481774fe___RS_HL 8184.JPG,Apple___healthy,Apple___healthy:::254.0
+data/PlantVillage-apple/raw/color/Apple___healthy/aed7208f-81b3-4fbc-869b-87083033e048___RS_HL 8180.JPG,Apple___healthy,Apple___healthy:::254.0
+data/PlantVillage-apple/raw/color/Apple___healthy/d3524c88-0d60-43e0-a181-3ecc0facd54a___RS_HL 8181.JPG,Apple___healthy,Apple___healthy:::254.0
+data/PlantVillage-apple/raw/color/Apple___healthy/1d68db41-8cec-49d7-b702-d16e36348f6e___RS_HL 6300.JPG,Apple___healthy,Apple___healthy:::110.0
+data/PlantVillage-apple/raw/color/Apple___healthy/2ba31dd4-36d6-4cda-b2e6-c1f53a174d4d___RS_HL 6305.JPG,Apple___healthy,Apple___healthy:::110.0
+data/PlantVillage-apple/raw/color/Apple___healthy/45ec1880-a9d2-4458-bd99-f0a6c01e54c4___RS_HL 6303.JPG,Apple___healthy,Apple___healthy:::110.0
+data/PlantVillage-apple/raw/color/Apple___healthy/4f9b8500-4510-4d79-bcbf-d9b680cd8fe8___RS_HL 6304.JPG,Apple___healthy,Apple___healthy:::110.0
+data/PlantVillage-apple/raw/color/Apple___healthy/6a5ded2c-8123-4d42-86fe-7be3c9f268a1___RS_HL 6302.JPG,Apple___healthy,Apple___healthy:::110.0
+data/PlantVillage-apple/raw/color/Apple___healthy/bed5806d-7325-4a3f-9515-e357432636f1___RS_HL 6301.JPG,Apple___healthy,Apple___healthy:::110.0
+data/PlantVillage-apple/raw/color/Apple___healthy/1c2b0674-384b-4cad-8704-80781a89d78a___RS_HL 5848.JPG,Apple___healthy,Apple___healthy:::35.0
+data/PlantVillage-apple/raw/color/Apple___healthy/28c298e3-0846-4372-a9ab-562f2ce7cf9d___RS_HL 5846.JPG,Apple___healthy,Apple___healthy:::35.0
+data/PlantVillage-apple/raw/color/Apple___healthy/60a20878-4945-491b-adff-ca8829824261___RS_HL 5847.JPG,Apple___healthy,Apple___healthy:::35.0
+data/PlantVillage-apple/raw/color/Apple___healthy/7f447118-8a9c-4e77-8333-d411d1124c7f___RS_HL 5849.JPG,Apple___healthy,Apple___healthy:::35.0
+data/PlantVillage-apple/raw/color/Apple___healthy/966a6112-9699-4511-a71b-02a1dd62cb65___RS_HL 5850.JPG,Apple___healthy,Apple___healthy:::35.0
+data/PlantVillage-apple/raw/color/Apple___healthy/f7f31913-51ef-481d-aacd-e6492daa74bd___RS_HL 5851.JPG,Apple___healthy,Apple___healthy:::35.0
+data/PlantVillage-apple/raw/color/Apple___healthy/1a219a0d-defa-4ed1-8878-e3f6aeac847b___RS_HL 6046.JPG,Apple___healthy,Apple___healthy:::67.0
+data/PlantVillage-apple/raw/color/Apple___healthy/20d16569-6237-4038-b6a9-2b2e5375beea___RS_HL 6042.JPG,Apple___healthy,Apple___healthy:::67.0
+data/PlantVillage-apple/raw/color/Apple___healthy/491f5957-ed75-4198-b988-4f0c834cd4ec___RS_HL 6043.JPG,Apple___healthy,Apple___healthy:::67.0
+data/PlantVillage-apple/raw/color/Apple___healthy/5e39c42c-b499-495f-8612-eb3a1079d594___RS_HL 6047.JPG,Apple___healthy,Apple___healthy:::67.0
+data/PlantVillage-apple/raw/color/Apple___healthy/a3bae732-a9e8-494a-93dd-7fd04dc558b7___RS_HL 6045.JPG,Apple___healthy,Apple___healthy:::67.0
+data/PlantVillage-apple/raw/color/Apple___healthy/f549a038-8cff-43b5-814c-70ecbfc2476a___RS_HL 6044.JPG,Apple___healthy,Apple___healthy:::67.0
+data/PlantVillage-apple/raw/color/Apple___healthy/33c721c9-aa91-4173-8695-916b61852017___RS_HL 7816.JPG,Apple___healthy,Apple___healthy:::206.0
+data/PlantVillage-apple/raw/color/Apple___healthy/567c7469-bee8-4ddc-8ee9-2f14b3fb569e___RS_HL 7817.JPG,Apple___healthy,Apple___healthy:::206.0
+data/PlantVillage-apple/raw/color/Apple___healthy/73f042d4-5213-4618-9783-8ff76967cb75___RS_HL 7821.JPG,Apple___healthy,Apple___healthy:::206.0
+data/PlantVillage-apple/raw/color/Apple___healthy/8042447f-f615-4683-b8fc-267e746a4744___RS_HL 7820.JPG,Apple___healthy,Apple___healthy:::206.0
+data/PlantVillage-apple/raw/color/Apple___healthy/885dd825-a34b-4149-bbb0-445fa62a4e64___RS_HL 7814.JPG,Apple___healthy,Apple___healthy:::206.0
+data/PlantVillage-apple/raw/color/Apple___healthy/de1cec8e-3880-4410-9fdb-99e79ce2dcbe___RS_HL 7819.JPG,Apple___healthy,Apple___healthy:::206.0
+data/PlantVillage-apple/raw/color/Apple___healthy/dff74209-1167-4878-8236-e0bf62e877dd___RS_HL 7815.JPG,Apple___healthy,Apple___healthy:::206.0
+data/PlantVillage-apple/raw/color/Apple___healthy/f472e594-6b98-402a-a097-22f46921df9e___RS_HL 7818.JPG,Apple___healthy,Apple___healthy:::206.0
+data/PlantVillage-apple/raw/color/Apple___healthy/449205c0-c994-4e4f-9ea4-ef7fa45f2151___RS_HL 7730.JPG,Apple___healthy,Apple___healthy:::194.0
+data/PlantVillage-apple/raw/color/Apple___healthy/4d6cc52c-984d-4652-ac24-ad608cb2085d___RS_HL 7725.JPG,Apple___healthy,Apple___healthy:::194.0
+data/PlantVillage-apple/raw/color/Apple___healthy/55eca570-7e6f-4bb9-ae2e-b9834d8fcea7___RS_HL 7726.JPG,Apple___healthy,Apple___healthy:::194.0
+data/PlantVillage-apple/raw/color/Apple___healthy/72059689-4c66-4922-8702-1a8d1fef1594___RS_HL 7729.JPG,Apple___healthy,Apple___healthy:::194.0
+data/PlantVillage-apple/raw/color/Apple___healthy/8e153b00-732e-420f-8cea-f947b19403ad___RS_HL 7728.JPG,Apple___healthy,Apple___healthy:::194.0
+data/PlantVillage-apple/raw/color/Apple___healthy/f2e3e754-4307-440e-8055-1261b7c5c53f___RS_HL 7724.JPG,Apple___healthy,Apple___healthy:::194.0
+data/PlantVillage-apple/raw/color/Apple___healthy/f902a6a0-a38b-441d-bd7e-5deb16ed709c___RS_HL 7727.JPG,Apple___healthy,Apple___healthy:::194.0
+data/PlantVillage-apple/raw/color/Apple___healthy/3d0032d5-ac37-4dbe-8c2c-ef567472578b___RS_HL 7750.JPG,Apple___healthy,Apple___healthy:::197.0
+data/PlantVillage-apple/raw/color/Apple___healthy/5fbda72a-a8f7-4ac9-a1d9-6c8d2e316297___RS_HL 7747.JPG,Apple___healthy,Apple___healthy:::197.0
+data/PlantVillage-apple/raw/color/Apple___healthy/8acb2f43-d1ff-4a60-8462-04e578be3be2___RS_HL 7753.JPG,Apple___healthy,Apple___healthy:::197.0
+data/PlantVillage-apple/raw/color/Apple___healthy/a5121b4f-be3e-4911-9d15-2678a0ccf66d___RS_HL 7751.JPG,Apple___healthy,Apple___healthy:::197.0
+data/PlantVillage-apple/raw/color/Apple___healthy/aacd1350-3b5c-46c6-9320-84f45f5161db___RS_HL 7746.JPG,Apple___healthy,Apple___healthy:::197.0
+data/PlantVillage-apple/raw/color/Apple___healthy/cb368d24-b5a9-4056-8515-096c649d4007___RS_HL 7752.JPG,Apple___healthy,Apple___healthy:::197.0
+data/PlantVillage-apple/raw/color/Apple___healthy/d7e31783-62dc-472c-a380-f7cc82207f48___RS_HL 7748.JPG,Apple___healthy,Apple___healthy:::197.0
+data/PlantVillage-apple/raw/color/Apple___healthy/d9983cb7-98ea-4dff-b283-faa1d93faa36___RS_HL 7749.JPG,Apple___healthy,Apple___healthy:::197.0
+data/PlantVillage-apple/raw/color/Apple___healthy/22e6ab6c-375c-475f-8888-3d2f6d939111___RS_HL 7625.JPG,Apple___healthy,Apple___healthy:::180.0
+data/PlantVillage-apple/raw/color/Apple___healthy/26e85922-aaf1-4cc6-8bdb-2fb0222a4b8c___RS_HL 7624.JPG,Apple___healthy,Apple___healthy:::180.0
+data/PlantVillage-apple/raw/color/Apple___healthy/6aa4217e-6d45-4a3b-8804-99fe82bd8925___RS_HL 7627.JPG,Apple___healthy,Apple___healthy:::180.0
+data/PlantVillage-apple/raw/color/Apple___healthy/82fa759f-dfdd-40ee-98df-ed232a081ab1___RS_HL 7629.JPG,Apple___healthy,Apple___healthy:::180.0
+data/PlantVillage-apple/raw/color/Apple___healthy/bd9222f6-b97a-4e5b-ac0f-ff320f5f7180___RS_HL 7630.JPG,Apple___healthy,Apple___healthy:::180.0
+data/PlantVillage-apple/raw/color/Apple___healthy/bfbfd624-ea18-4469-8038-4c90e4369209___RS_HL 7628.JPG,Apple___healthy,Apple___healthy:::180.0
+data/PlantVillage-apple/raw/color/Apple___healthy/d509b6e5-a4b7-49c8-ac55-c06c8dab3005___RS_HL 7626.JPG,Apple___healthy,Apple___healthy:::180.0
+data/PlantVillage-apple/raw/color/Apple___healthy/54c9c89e-7cb7-4c1e-8bbe-f33ca90df541___RS_HL 7766.JPG,Apple___healthy,Apple___healthy:::199.0
+data/PlantVillage-apple/raw/color/Apple___healthy/5823ffd3-bd23-4088-80f5-dd33ae876694___RS_HL 7765.JPG,Apple___healthy,Apple___healthy:::199.0
+data/PlantVillage-apple/raw/color/Apple___healthy/c0045dfa-da87-423c-a78c-07eb2fd456f3___RS_HL 7764.JPG,Apple___healthy,Apple___healthy:::199.0
+data/PlantVillage-apple/raw/color/Apple___healthy/c2bb2f86-2dc0-46cb-b6af-6fcfde123bec___RS_HL 7762.JPG,Apple___healthy,Apple___healthy:::199.0
+data/PlantVillage-apple/raw/color/Apple___healthy/d8da7e4d-9520-4a25-8f29-4ff677e7c214___RS_HL 7763.JPG,Apple___healthy,Apple___healthy:::199.0
+data/PlantVillage-apple/raw/color/Apple___healthy/f0194580-8ee6-4149-a63d-7935bc29c09e___RS_HL 7761.JPG,Apple___healthy,Apple___healthy:::199.0
+data/PlantVillage-apple/raw/color/Apple___healthy/041482f6-6dd6-4ac9-9e59-e973c9bcaf6d___RS_HL 8155.JPG,Apple___healthy,Apple___healthy:::250.0
+data/PlantVillage-apple/raw/color/Apple___healthy/188d8d1c-a33a-4513-b97f-466135939339___RS_HL 8151.JPG,Apple___healthy,Apple___healthy:::250.0
+data/PlantVillage-apple/raw/color/Apple___healthy/1dabd7f0-68f4-4d1b-b026-e314457de638___RS_HL 8153.JPG,Apple___healthy,Apple___healthy:::250.0
+data/PlantVillage-apple/raw/color/Apple___healthy/44f96d95-150b-499d-8fb7-a95ed4df85c6___RS_HL 8152.JPG,Apple___healthy,Apple___healthy:::250.0
+data/PlantVillage-apple/raw/color/Apple___healthy/8eb47c92-87b8-4c92-a6a1-faf62e651e3e___RS_HL 8156.JPG,Apple___healthy,Apple___healthy:::250.0
+data/PlantVillage-apple/raw/color/Apple___healthy/bd802f98-838a-4703-b38d-5db77ddac1b8___RS_HL 8154.JPG,Apple___healthy,Apple___healthy:::250.0
+data/PlantVillage-apple/raw/color/Apple___healthy/d5fc35d2-b7d0-4ff7-9f96-5d3055ef6dde___RS_HL 8150.JPG,Apple___healthy,Apple___healthy:::250.0
+data/PlantVillage-apple/raw/color/Apple___healthy/03f6a4b2-d08b-4f7f-8a8e-d132ff3eca8b___RS_HL 6226.JPG,Apple___healthy,Apple___healthy:::97.0
+data/PlantVillage-apple/raw/color/Apple___healthy/1b9f5fe1-6d06-4ff6-a35d-3155f623e4fb___RS_HL 6228.JPG,Apple___healthy,Apple___healthy:::97.0
+data/PlantVillage-apple/raw/color/Apple___healthy/5ee4cb1c-d933-4e89-b364-9b740b48e077___RS_HL 6224.JPG,Apple___healthy,Apple___healthy:::97.0
+data/PlantVillage-apple/raw/color/Apple___healthy/9ebc421f-9c65-41ee-a650-2da921e8e7cb___RS_HL 6227.JPG,Apple___healthy,Apple___healthy:::97.0
+data/PlantVillage-apple/raw/color/Apple___healthy/a1644fa1-0871-47e1-a316-bc435c6a275b___RS_HL 6225.JPG,Apple___healthy,Apple___healthy:::97.0
+data/PlantVillage-apple/raw/color/Apple___healthy/b5bd9505-7491-4ff6-a703-d87b4f5db18b___RS_HL 6223.JPG,Apple___healthy,Apple___healthy:::97.0
+data/PlantVillage-apple/raw/color/Apple___healthy/221bfc6b-53d8-4677-8590-8f51530a9661___RS_HL 7260.JPG,Apple___healthy,Apple___healthy:::120.0
+data/PlantVillage-apple/raw/color/Apple___healthy/6422d3df-4b2d-4e73-b1c9-3da9f763cb75___RS_HL 7259.JPG,Apple___healthy,Apple___healthy:::120.0
+data/PlantVillage-apple/raw/color/Apple___healthy/8d45fcf9-d1c1-47b6-be37-6e3d2fde46e0___RS_HL 7261.JPG,Apple___healthy,Apple___healthy:::120.0
+data/PlantVillage-apple/raw/color/Apple___healthy/65fcf384-964b-41c5-9a54-aecb473283d2___RS_HL 7672.JPG,Apple___healthy,Apple___healthy:::187.0
+data/PlantVillage-apple/raw/color/Apple___healthy/817ae6f2-7f72-457f-889a-6cddeaf0945e___RS_HL 7674.JPG,Apple___healthy,Apple___healthy:::187.0
+data/PlantVillage-apple/raw/color/Apple___healthy/a2b40acc-cec7-4c42-a1d4-199b85f7e4a1___RS_HL 7675.JPG,Apple___healthy,Apple___healthy:::187.0
+data/PlantVillage-apple/raw/color/Apple___healthy/bc9b490b-eb06-4b0a-bfcc-f90478e0418b___RS_HL 7677.JPG,Apple___healthy,Apple___healthy:::187.0
+data/PlantVillage-apple/raw/color/Apple___healthy/beaa2ead-91d2-46f1-b2a0-f3a3662ee1f0___RS_HL 7676.JPG,Apple___healthy,Apple___healthy:::187.0
+data/PlantVillage-apple/raw/color/Apple___healthy/d88aa4e9-2d7d-4bd6-9a1d-e2f5a77507ff___RS_HL 7673.JPG,Apple___healthy,Apple___healthy:::187.0
+data/PlantVillage-apple/raw/color/Apple___healthy/0a553fc0-fc2c-4598-baba-3bc10191447c___RS_HL 5969.JPG,Apple___healthy,Apple___healthy:::55.0
+data/PlantVillage-apple/raw/color/Apple___healthy/24cddc8a-d7e6-4ebf-9771-b3844913f02e___RS_HL 5966.JPG,Apple___healthy,Apple___healthy:::55.0
+data/PlantVillage-apple/raw/color/Apple___healthy/274144ec-893c-43fb-ad9a-18f71ead2e58___RS_HL 5971.JPG,Apple___healthy,Apple___healthy:::55.0
+data/PlantVillage-apple/raw/color/Apple___healthy/3a74b441-4ab0-412f-ae66-f28f4b1d9df2___RS_HL 5968.JPG,Apple___healthy,Apple___healthy:::55.0
+data/PlantVillage-apple/raw/color/Apple___healthy/76367d84-6702-4ef7-84f1-fe308315d04d___RS_HL 5967.JPG,Apple___healthy,Apple___healthy:::55.0
+data/PlantVillage-apple/raw/color/Apple___healthy/ced1918e-3327-45c8-8107-c93dd2586380___RS_HL 5970.JPG,Apple___healthy,Apple___healthy:::55.0
