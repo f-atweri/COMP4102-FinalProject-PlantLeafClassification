@@ -1,16 +1,16 @@
 import csv
-from pathlib import Path
 from random import Random
 
+from inspect_data import SPLIT_DIR
 
-PROJECT_DIR = Path(__file__).resolve().parent
+
 FIELDS = ("image_path", "label", "leaf_id")
 VALIDATION_FRACTION = 0.2
 SEED = 42
 
 
 def main():
-    with (PROJECT_DIR / "train.csv").open(encoding="utf-8", newline="") as file:
+    with (SPLIT_DIR / "train.csv").open(encoding="utf-8", newline="") as file:
         reader = csv.DictReader(file)
         if reader.fieldnames != list(FIELDS):
             raise ValueError("train.csv must contain image_path, label, and leaf_id")
@@ -58,7 +58,7 @@ def main():
         ("model_train.csv", model_train_rows),
         ("validation.csv", validation_rows),
     ):
-        with (PROJECT_DIR / filename).open("w", encoding="utf-8", newline="") as file:
+        with (SPLIT_DIR / filename).open("w", encoding="utf-8", newline="") as file:
             writer = csv.DictWriter(file, fieldnames=FIELDS)
             writer.writeheader()
             writer.writerows(split_rows)

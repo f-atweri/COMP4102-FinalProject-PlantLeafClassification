@@ -1,13 +1,10 @@
 import csv
 from collections import Counter
-from pathlib import Path
-
-
-PROJECT_DIR = Path(__file__).resolve().parent
+from inspect_data import SPLIT_DIR
 
 
 def read_labels(filename):
-    with (PROJECT_DIR / filename).open(encoding="utf-8", newline="") as file:
+    with (SPLIT_DIR / filename).open(encoding="utf-8", newline="") as file:
         reader = csv.DictReader(file)
         if reader.fieldnames is None or "label" not in reader.fieldnames:
             raise ValueError(f"{filename} must contain a label column")

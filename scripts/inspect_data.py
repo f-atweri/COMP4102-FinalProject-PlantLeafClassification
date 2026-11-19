@@ -1,8 +1,10 @@
 from pathlib import Path
 
 
+PROJECT_DIR = Path(__file__).resolve().parent.parent
+SPLIT_DIR = PROJECT_DIR / "data" / "splits"
 DATASET = (
-    Path(__file__).resolve().parent
+    PROJECT_DIR
     / "data"
     / "PlantVillage-apple"
     / "raw"

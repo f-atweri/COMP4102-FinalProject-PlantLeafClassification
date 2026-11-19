@@ -1,70 +1,64 @@
-Problem: A leaf can show visible symptoms such as spots, discoloration, or texture changes but identifying its condition from a photo is difficult, especially when lighting, background, or camera angle varies. Here we would classify a leaf image into a small set of labels, such as healthy, diseased, or a few specific conditions.
+Apple Leaf Classification!
 
-## first step: inspecting the data:
+this project trains a small classifier to recognize four classes of apple
+leaves and investigates how changes in image brightness affect its predictions.
 
-Total images: 3171
+implementation/project stages
 
-| Class | Images | Share |
-|---|---:|---:|
-| `Apple___Apple_scab` | 630 | 19.9% |
-| `Apple___Black_rot` | 621 | 19.6% |
-| `Apple___Cedar_apple_rust` | 275 | 8.7% |
-| `Apple___healthy` | 1645 | 51.9% |
+1. inspect the data (scripts/inspect_data.py): count the images in each class
+   and show their share of the dataset. (this is mostly just for some basic analaysis at the start because i think we need more healthy images)
+2. split the data (scripts/split_data.py): create training and test manifests,
+   keeping images of the same leaf together in one split.
+3. prepare validation data (scripts/prepare_validation.py): divide the training
+   manifest into model-training and validation manifests, again by leaf. (fyi validation helps choose the model, not train it!)
+4. load the data (scripts/leaf_data.py): read the manifests and provide images
+   and labels to the model. Running the script also checks a sample batch.
+5. establish a baseline (scripts/baseline.py): predict the most common training
+   class for every validation image and report accuracy and per-class recall.
+6. train the model (scripts/train_mobilenet.py): train the final classification
+   layer of a pretrained MobileNetV2 and save the best validation checkpoint.
+7. run the brightness experiment (scripts/experiment.py): evaluate the same
+   validation or test images at different brightness levels and save metrics,
+   plots, and prediction examples.
 
-healthy leaves make up about half of the data. a model that always guesses “healthy” would already be about 52% accurate, without recognizing any diseases, so we'll need to evaluate each class, not just overall accuracy.
+again, a note to self here to use the validation set to develop the model and choose settings. Keep the test
+set for the final evaluation after those choices are fixed. The split scripts
+overwrite their output manifests, so keep the existing splits for a consistent
+experiment.
 
-## second step: viewing example images and comparing classes
-| Class |  |
-|---|---|
-| Apple scab | Dark, irregular spots or patches on the green leaf. |
-| Black rot | Brown or dark damaged areas; some examples show damage near the leaf tip. |
-| Cedar apple rust | Lighter brown or reddish spots and patches on the leaf surface. |
-| Healthy | Mostly green leaves without obvious disease spots. |
+to run (windows):
 
-these are patterns, not strict rules. symptoms can look different across images, and the disease classes can overlap visually and there's also different lighting conditions.
+python -m venv .venv
+.\.venv\Scripts\python.exe -m pip install -r requirements.txt
 
-## third step: splitting the data
+the dataset images should be in data\PlantVillage-apple\raw\color, with a
+folder for each class. the split manifests are in data\splits. to recreate
+them if needed, make sure data\PlantVillage-apple\leaf-map.json is present,
+then run these commands. they overwrite the existing manifests:
 
-some leaves have multiple photos. to avoid data leakage, the script assigns
-whole leaf groups to either training or testing, never both. it shuffles the
-groups within each class using a fixed seed, then assigns about 80% of the
-groups to training and the rest to testing. the image percentages may differ
-because groups contain different numbers of photos.
+.\.venv\Scripts\python.exe scripts\split_data.py
+.\.venv\Scripts\python.exe scripts\prepare_validation.py
 
-the local PlantVillage `leaf-map.json` identifies the leaf groups. in this
-file, the black rot images use the label `Apple_Frogeye Spot`; the script
-maps that name to our `Apple___Black_rot` folder. missing or ambiguous group
-information stops the script instead of silently assigning an image.
+inspect the dataset, check a sample batch, and run the baseline:
 
-the training set is to develop the model and save the test set for
-final evaluation. if we need validation data for tuning, it must also be split
-by leaf group from the training set.
+.\.venv\Scripts\python.exe scripts\inspect_data.py
+.\.venv\Scripts\python.exe scripts\leaf_data.py
+.\.venv\Scripts\python.exe scripts\baseline.py
 
-## foruth step: validation and a simple baseline
+train the model and save its training history:
 
-`python .\prepare_validation.py` to split `train.csv` into
-`model_train.csv` and `validation.csv`. it assigns about 20% of each class's
-leaf groups to validation using a fixed seed and it does not change `test.csv`.
-running it again replaces the two generated CSV files.
+.\.venv\Scripts\python.exe scripts\train_mobilenet.py --history results\training.csv
 
-use `model_train.csv` to train models, `validation.csv` to compare or tune
-them, and `test.csv` only for final evaluation. `train.csv` remains the
-original pool used to create the training and validation sets.
+the first training run may download pretrained weights. The best checkpoint is
+saved to models\mobilenet_best.pt. Training will not overwrite an existing
+checkpoint unless --overwrite is added; choose a new history file for each run.
 
-run `python .\baseline.py` for a simple reference: it chooses the most common
-class in `model_train.csv` and predicts that class for every validation image.
-it reports accuracy and recall for each class. recall is the fraction of a
-class's images correctly identified. this baseline does not look at image
-pixels and it shows why accuracy alone is not enough.
+run the brightness experiment on validation data:
 
-## fifth step: preparing images for a CNN
+.\.venv\Scripts\python.exe scripts\experiment.py --split validation --output results\validation
 
-the script reads image paths and labels from `model_train.csv` and
-`validation.csv`, turns each image into RGB, resizes it to 128 by 128 pixels,
-and converts it to a tensor with pixel values between 0 and 1. it maps the
-class names to numbers and prints one batch from each split. A batch shape of
-`(8, 3, 128, 128)` means eight images, three colour channels, and 128 by 128
-pixels.
+once the model and settings are final, run the experiment on the test data:
+
+.\.venv\Scripts\python.exe scripts\experiment.py --split test --output results\test
 
 
-## next step is maybe building a small CNN?

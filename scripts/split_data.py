@@ -1,12 +1,10 @@
 import csv
 import json
-from pathlib import Path
 from random import Random
 
-from inspect_data import DATASET, IMAGE_EXTENSIONS
+from inspect_data import DATASET, IMAGE_EXTENSIONS, PROJECT_DIR, SPLIT_DIR
 
 
-PROJECT_DIR = Path(__file__).resolve().parent
 LEAF_MAP = DATASET.parent.parent / "leaf-map.json"
 TRAIN_FRACTION = 0.8
 SEED = 42
@@ -70,8 +68,9 @@ def main():
         test_rows.extend(class_test)
         print(f"{class_dir.name}: train={len(class_train)}, test={len(class_test)}")
 
+    SPLIT_DIR.mkdir(parents=True, exist_ok=True)
     for filename, rows in (("train.csv", train_rows), ("test.csv", test_rows)):
-        with (PROJECT_DIR / filename).open("w", newline="", encoding="utf-8") as file:
+        with (SPLIT_DIR / filename).open("w", newline="", encoding="utf-8") as file:
             writer = csv.writer(file)
             writer.writerow(("image_path", "label", "leaf_id"))
             writer.writerows(rows)

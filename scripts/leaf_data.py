@@ -1,18 +1,16 @@
 import csv
-from pathlib import Path
-
 from PIL import Image
 import torch
 from torch.utils.data import DataLoader, Dataset
 from torchvision import transforms
+from inspect_data import PROJECT_DIR, SPLIT_DIR
 
 
-PROJECT_DIR = Path(__file__).resolve().parent
 IMAGE_SIZE = 128
 
 
 def read_manifest(filename):
-    with (PROJECT_DIR / filename).open(encoding="utf-8", newline="") as file:
+    with (SPLIT_DIR / filename).open(encoding="utf-8", newline="") as file:
         reader = csv.DictReader(file)
         if reader.fieldnames is None or not {"image_path", "label"} <= set(reader.fieldnames):
             raise ValueError(f"{filename} must contain image_path and label columns")
@@ -23,10 +21,10 @@ def read_manifest(filename):
 
 
 class LeafDataset(Dataset):
-    def __init__(self, rows, class_to_index):
+    def __init__(self, rows, class_to_index, transform=None):
         self.rows = rows
         self.class_to_index = class_to_index
-        self.transform = transforms.Compose([
+        self.transform = transform if transform is not None else transforms.Compose([
             transforms.Resize((IMAGE_SIZE, IMAGE_SIZE)),
             transforms.ToTensor(),
         ])
