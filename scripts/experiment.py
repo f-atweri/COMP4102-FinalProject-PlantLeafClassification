@@ -16,6 +16,7 @@ from torch.utils.data import DataLoader
 from torchvision.models import MobileNet_V2_Weights, mobilenet_v2
 
 from leaf_data import LeafDataset, PROJECT_DIR, read_manifest
+from inspect_data import SPLIT_DIR
 
 
 class ImageCondition:
@@ -90,37 +91,147 @@ def compare_predictions(rows, class_names, original, changed):
     }
 
 
-def save_plots(output, conditions, results, class_names, example, baseline, rows, split):
-    names = ["Majority baseline"] + [name for name, _ in conditions]
-    accuracies = [baseline["accuracy"] * 100] + [
-        results[name]["accuracy"] * 100 for name, _ in conditions
+def select_examples(groups, rows, limit=4):
+    selected = []
+    seen_leaves = set()
+    seen_images = set()
+    seen_labels = set()
+    seen_conditions = set()
+    groups = [list(group) for group in groups]
+    while len(selected) < limit and any(groups):
+        for group in groups:
+            if not group or len(selected) == limit:
+                continue
+            def preference(candidate):
+                row = rows[candidate[0]]
+                leaf = row.get("leaf_id") or row["image_path"]
+                return (leaf in seen_leaves, row["image_path"] in seen_images,
+                        row["label"] in seen_labels,
+                        len(candidate) > 1 and candidate[1] in seen_conditions)
+
+            index = min(range(len(group)), key=lambda i: preference(group[i]))
+            candidate = group.pop(index)
+            row = rows[candidate[0]]
+            seen_leaves.add(row.get("leaf_id") or row["image_path"])
+            seen_images.add(row["image_path"])
+            seen_labels.add(row["label"])
+            if len(candidate) > 1:
+                seen_conditions.add(candidate[1])
+            selected.append(candidate)
+    return selected
+
+
+def select_original_examples(rows, class_names, predictions, correct):
+    groups = [
+        [(i,) for i, row in enumerate(rows)
+         if row["label"] == name
+         and (row["label"] == class_names[predictions[i]]) == correct]
+        for name in class_names
     ]
-    fig, axes = plt.subplots(1, 2, figsize=(13, 5))
-    axes[0].bar(range(len(names)), accuracies)
-    axes[0].set_xticks(range(len(names)), names, rotation=30, ha="right")
+    return [candidate[0] for candidate in select_examples(groups, rows)]
+
+
+def select_changed_examples(rows, class_names, conditions, results):
+    original = results["Original"]["predictions"]
+    groups = [[], [], []]
+    for name, brightness in conditions:
+        if brightness == 1.0:
+            continue
+        for index, prediction in enumerate(results[name]["predictions"]):
+            before = original[index]
+            if prediction == before:
+                continue
+            actual = rows[index]["label"]
+            if class_names[before] == actual:
+                group = 0
+            elif class_names[prediction] == actual:
+                group = 1
+            else:
+                group = 2
+            groups[group].append((index, name, brightness))
+    return select_examples(groups, rows)
+
+
+def save_plots(output, conditions, results, class_names, example, baseline, rows, split):
+    ordered = sorted(conditions, key=lambda item: item[1])
+    factors = [brightness for _, brightness in ordered]
+    fig, axes = plt.subplots(1, 2, figsize=(13, 5), sharex=True)
+    axes[0].plot(factors, [results[name]["accuracy"] * 100 for name, _ in ordered],
+                 marker="o", label="MobileNetV2")
+    axes[0].axhline(baseline["accuracy"] * 100, color="gray", linestyle="--",
+                    label="Majority-class baseline")
+    axes[0].axvline(1.0, color="black", alpha=0.3, linestyle=":")
     axes[0].set_ylim(0, 100)
-    axes[0].set_ylabel(f"{split.capitalize()} accuracy (%)")
-    axes[0].set_title(f"{split.capitalize()} accuracy by brightness")
-    matrix = results["Original"]["confusion_matrix"]
+    axes[0].set_ylabel("Accuracy (%)")
+    axes[0].set_title("Overall accuracy")
+    axes[0].legend()
     display_names = [name.replace("Apple___", "").replace("_", " ") for name in class_names]
-    plot = axes[1].imshow(matrix, cmap="Blues")
-    axes[1].set_xticks(range(len(display_names)), display_names, rotation=30, ha="right")
-    axes[1].set_yticks(range(len(display_names)), display_names)
-    axes[1].set_xlabel("Predicted")
-    axes[1].set_ylabel("Actual")
-    axes[1].set_title("Original images: confusion matrix")
-    maximum = max(max(row) for row in matrix)
-    for i, row in enumerate(matrix):
-        for j, value in enumerate(row):
-            axes[1].text(j, i, str(value), ha="center", va="center",
-                         color="white" if value > maximum / 2 else "black")
-    fig.colorbar(plot, ax=axes[1], label="Images")
+    for label, display in zip(class_names, display_names):
+        axes[1].plot(factors, [
+            results[name]["recall"][label] * 100
+            if results[name]["recall"][label] is not None else float("nan")
+            for name, _ in ordered
+        ], marker="o", label=display)
+    axes[1].axvline(1.0, color="black", alpha=0.3, linestyle=":")
+    axes[1].set_ylim(0, 100)
+    axes[1].set_ylabel("Recall (%)")
+    axes[1].set_title("Recall by actual class")
+    axes[1].legend()
+    for ax in axes:
+        ax.set_xlabel("Brightness factor (1.0 = original)")
+        ax.set_xticks(factors)
+        ax.grid(alpha=0.25)
+    fig.suptitle(f"{split.capitalize()} images: performance under brightness changes (n={len(rows)})")
     fig.tight_layout()
-    fig.savefig(output / "summary.png", dpi=120)
+    fig.savefig(output / "summary.png", dpi=200)
     plt.close(fig)
 
-    fig, axes = plt.subplots(1, len(conditions), figsize=(3 * len(conditions), 3), squeeze=False)
-    for ax, (name, brightness) in zip(axes.flat, conditions):
+    selected = [ordered[0], ("Original", 1.0), ordered[-1]]
+    selected = list(dict.fromkeys(selected))
+    fig, axes = plt.subplots(1, len(selected), figsize=(5 * len(selected), 5),
+                             squeeze=False, layout="constrained")
+    for index, (ax, (name, _)) in enumerate(zip(axes.flat, selected)):
+        matrix = results[name]["confusion_matrix"]
+        normalized = [
+            [100 * value / sum(row) if sum(row) else 0 for value in row]
+            for row in matrix
+        ]
+        plot = ax.imshow(normalized, cmap="Blues", vmin=0, vmax=100)
+        ax.set_xticks(range(len(display_names)), display_names, rotation=35, ha="right")
+        ax.set_yticks(range(len(display_names)), display_names if index == 0 else [])
+        ax.set_xlabel("Predicted")
+        if index == 0:
+            ax.set_ylabel("Actual")
+        ax.set_title(name)
+        for i, row in enumerate(matrix):
+            for j, value in enumerate(row):
+                ax.text(j, i, f"{normalized[i][j]:.0f}%\n({value})",
+                        ha="center", va="center", fontsize=8,
+                        color="white" if normalized[i][j] > 50 else "black")
+    fig.colorbar(plot, ax=list(axes.flat), label="Percentage of actual class", shrink=0.75)
+    fig.suptitle(f"{split.capitalize()} confusion matrices: row percentages (image counts)")
+    fig.savefig(output / "confusion.png", dpi=200, bbox_inches="tight")
+    plt.close(fig)
+
+    fig, ax = plt.subplots(figsize=(8, 4))
+    positions = range(len(ordered))
+    ax.bar([i - 0.2 for i in positions], [
+        results[name]["comparison_to_original"]["correct_to_incorrect"] for name, _ in ordered
+    ], width=0.4, label="Correct to incorrect")
+    ax.bar([i + 0.2 for i in positions], [
+        results[name]["comparison_to_original"]["incorrect_to_correct"] for name, _ in ordered
+    ], width=0.4, label="Incorrect to correct")
+    ax.set_xticks(list(positions), [str(value) for _, value in ordered])
+    ax.set_xlabel("Brightness factor (1.0 = original)")
+    ax.set_ylabel("Number of images")
+    ax.set_title(f"{split.capitalize()}: paired changes relative to original")
+    ax.legend()
+    fig.tight_layout()
+    fig.savefig(output / "paired_changes.png", dpi=200)
+    plt.close(fig)
+
+    fig, axes = plt.subplots(1, len(ordered), figsize=(3 * len(ordered), 3), squeeze=False)
+    for ax, (name, brightness) in zip(axes.flat, ordered):
         image = example.copy()
         if brightness != 1.0:
             image = ImageEnhance.Brightness(image).enhance(brightness)
@@ -129,12 +240,12 @@ def save_plots(output, conditions, results, class_names, example, baseline, rows
         ax.axis("off")
     fig.suptitle(f"Same {split} image at each brightness (before model preprocessing)")
     fig.tight_layout()
-    fig.savefig(output / "conditions.png", dpi=120)
+    fig.savefig(output / "conditions.png", dpi=200)
     plt.close(fig)
 
     original_predictions = results["Original"]["predictions"]
-    correct = [i for i, row in enumerate(rows) if row["label"] == class_names[original_predictions[i]]][:4]
-    errors = [i for i, row in enumerate(rows) if row["label"] != class_names[original_predictions[i]]][:4]
+    correct = select_original_examples(rows, class_names, original_predictions, True)
+    errors = select_original_examples(rows, class_names, original_predictions, False)
     fig, axes = plt.subplots(2, 4, figsize=(12, 6), squeeze=False)
     for row_axes, indices, title in zip(axes, (correct, errors), ("Correct", "Incorrect")):
         for ax, index in zip(row_axes, indices):
@@ -143,19 +254,16 @@ def save_plots(output, conditions, results, class_names, example, baseline, rows
             actual = rows[index]["label"].replace("Apple___", "").replace("_", " ")
             predicted = class_names[original_predictions[index]].replace("Apple___", "").replace("_", " ")
             ax.set_title(f"{title}\nActual: {actual}\nPredicted: {predicted}")
+        for ax in row_axes[len(indices):]:
+            ax.text(0.5, 0.5, f"No more {title.lower()}\nexamples", ha="center", va="center")
         for ax in row_axes:
             ax.axis("off")
     fig.suptitle(f"Original {split} images: correct and incorrect predictions")
     fig.tight_layout()
-    fig.savefig(output / "predictions.png", dpi=120)
+    fig.savefig(output / "predictions.png", dpi=200)
     plt.close(fig)
 
-    changed_examples = [
-        (index, name, brightness)
-        for name, brightness in conditions if brightness != 1.0
-        for index, prediction in enumerate(results[name]["predictions"])
-        if prediction != original_predictions[index]
-    ][:4]
+    changed_examples = select_changed_examples(rows, class_names, ordered, results)
     fig, axes = plt.subplots(max(1, len(changed_examples)), 2, figsize=(8, 3 * max(1, len(changed_examples))), squeeze=False)
     if not changed_examples:
         axes[0, 0].text(0.5, 0.5, "No changed predictions found.", ha="center", va="center")
@@ -165,6 +273,11 @@ def save_plots(output, conditions, results, class_names, example, baseline, rows
         with Image.open(PROJECT_DIR / rows[index]["image_path"]) as image:
             image = image.convert("RGB")
         actual = rows[index]["label"].replace("Apple___", "").replace("_", " ")
+        before_correct = rows[index]["label"] == class_names[original_predictions[index]]
+        after_correct = rows[index]["label"] == class_names[results[name]["predictions"][index]]
+        transition = ("Correct" if before_correct else "Incorrect") + " to " + (
+            "correct" if after_correct else "incorrect"
+        )
         for ax, shown, prediction, condition in (
             (row_axes[0], image, original_predictions[index], "Original"),
             (row_axes[1], ImageEnhance.Brightness(image).enhance(brightness),
@@ -172,11 +285,11 @@ def save_plots(output, conditions, results, class_names, example, baseline, rows
         ):
             predicted = class_names[prediction].replace("Apple___", "").replace("_", " ")
             ax.imshow(shown)
-            ax.set_title(f"{condition}\nActual: {actual}\nPredicted: {predicted}")
+            ax.set_title(f"{condition} ({transition})\nActual: {actual}\nPredicted: {predicted}")
             ax.axis("off")
     fig.suptitle(f"Examples where brightness changed the prediction ({split})")
     fig.tight_layout()
-    fig.savefig(output / "changes.png", dpi=120)
+    fig.savefig(output / "changes.png", dpi=200)
     plt.close(fig)
 
 
@@ -252,6 +365,12 @@ def main():
         "checkpoint_sha256": hashlib.sha256(args.checkpoint.read_bytes()).hexdigest(),
         "pretrained_weights": weights.name,
         "checkpoint_epoch": checkpoint["epoch"],
+        "evaluation_manifest_sha256": hashlib.sha256(
+            (SPLIT_DIR / f"{args.split}.csv").read_bytes()
+        ).hexdigest(),
+        "training_manifest_sha256": hashlib.sha256(
+            (SPLIT_DIR / "model_train.csv").read_bytes()
+        ).hexdigest(),
         "class_names": class_names,
         "majority_baseline": baseline,
         "conditions": [
