@@ -15,8 +15,6 @@ Files and folders
 - data\PlantVillage-apple\raw\color\ contains the four image-class folders.
 - data\PlantVillage-apple\leaf-map.json groups images of the same leaf.
 - data\splits\ contains train.csv, model_train.csv, validation.csv, and test.csv.
-- models\mobilenet_best.pt is an earlier default checkpoint, not the selected
-  checkpoint used for the reported brightness experiments.
 - results\ contains training histories, checkpoints, and experiment outputs.
   It is ignored by git and may not be present in a fresh clone.
 - requirements.txt lists the Python dependencies.
