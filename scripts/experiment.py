@@ -25,12 +25,14 @@ class ImageCondition:
         self.brightness = brightness
 
     def __call__(self, image):
+        # adjust the source image before applying the model's normal preprocessing
         if self.brightness != 1.0:
             image = ImageEnhance.Brightness(image).enhance(self.brightness)
         return self.transform(image)
 
 
 def build_conditions(brightness):
+    # always include an unchanged reference to compare with the altered images
     for value in brightness:
         if not math.isfinite(value) or value < 0:
             raise ValueError("Brightness values must be finite and non-negative.")
@@ -43,6 +45,7 @@ def build_conditions(brightness):
 
 
 def evaluate(model, dataset, class_names, batch_size):
+    # rows are actual classes and columns are predicted classes
     matrix = torch.zeros((len(class_names), len(class_names)), dtype=torch.int64)
     all_predictions = []
     loader = DataLoader(dataset, batch_size=batch_size, shuffle=False)
@@ -75,6 +78,7 @@ def evaluate(model, dataset, class_names, batch_size):
 def compare_predictions(rows, class_names, original, changed):
     if len(rows) != len(original) or len(rows) != len(changed):
         raise ValueError("Predictions must match the evaluation images.")
+    # compare the same images before and after the brightness adjustment
     changed_count = newly_incorrect = newly_correct = 0
     for row, before, after in zip(rows, original, changed):
         if before != after:
@@ -92,6 +96,7 @@ def compare_predictions(rows, class_names, original, changed):
 
 
 def select_examples(groups, rows, limit=4):
+    # take examples from each outcome group while favoring different leaves and classes
     selected = []
     seen_leaves = set()
     seen_images = set()
@@ -122,6 +127,7 @@ def select_examples(groups, rows, limit=4):
 
 
 def select_original_examples(rows, class_names, predictions, correct):
+    # spread original-image examples across actual classes where possible
     groups = [
         [(i,) for i, row in enumerate(rows)
          if row["label"] == name
@@ -132,6 +138,7 @@ def select_original_examples(rows, class_names, predictions, correct):
 
 
 def select_changed_examples(rows, class_names, conditions, results):
+    # separate changed predictions by whether brightness helped or hurt correctness
     original = results["Original"]["predictions"]
     groups = [[], [], []]
     for name, brightness in conditions:
@@ -152,7 +159,36 @@ def select_changed_examples(rows, class_names, conditions, results):
     return select_examples(groups, rows)
 
 
+def save_compact_changes(path, examples, results, class_names, rows, split):
+    # we want to use this for the report so it needs to be compact (note for: fatima)
+    examples = examples[:2]
+    fig, axes = plt.subplots(1, max(1, 2 * len(examples)),
+                             figsize=(10 if len(examples) == 2 else 5, 3.5),
+                             squeeze=False, layout="constrained")
+    if not examples:
+        axes[0, 0].text(0.5, 0.5, "No changed predictions found.", ha="center", va="center")
+        axes[0, 0].axis("off")
+    original = results["Original"]["predictions"]
+    for pair, (index, name, brightness) in enumerate(examples):
+        with Image.open(PROJECT_DIR / rows[index]["image_path"]) as image:
+            image = image.convert("RGB")
+        actual = rows[index]["label"].replace("Apple___", "").replace("_", " ")
+        for ax, shown, prediction, condition in (
+            (axes[0, 2 * pair], image, original[index], "Original"),
+            (axes[0, 2 * pair + 1], ImageEnhance.Brightness(image).enhance(brightness),
+             results[name]["predictions"][index], name),
+        ):
+            predicted = class_names[prediction].replace("Apple___", "").replace("_", " ")
+            ax.imshow(shown)
+            ax.set_title(f"{condition}\nActual: {actual}\nPredicted: {predicted}", fontsize=10)
+            ax.axis("off")
+    fig.suptitle(f"Brightness and predictions ({split})", fontsize=12)
+    fig.savefig(path, dpi=200)
+    plt.close(fig)
+
+
 def save_plots(output, conditions, results, class_names, example, baseline, rows, split):
+    # sort factors left to right so the plots show the brightness trend clearly
     ordered = sorted(conditions, key=lambda item: item[1])
     factors = [brightness for _, brightness in ordered]
     fig, axes = plt.subplots(1, 2, figsize=(13, 5), sharex=True)
@@ -186,6 +222,7 @@ def save_plots(output, conditions, results, class_names, example, baseline, rows
     fig.savefig(output / "summary.png", dpi=200)
     plt.close(fig)
 
+    # compare the original with the darkest and brightest confusion matrices
     selected = [ordered[0], ("Original", 1.0), ordered[-1]]
     selected = list(dict.fromkeys(selected))
     fig, axes = plt.subplots(1, len(selected), figsize=(5 * len(selected), 5),
@@ -243,6 +280,7 @@ def save_plots(output, conditions, results, class_names, example, baseline, rows
     fig.savefig(output / "conditions.png", dpi=200)
     plt.close(fig)
 
+    # show representative successes and failures rather than only aggregate scores
     original_predictions = results["Original"]["predictions"]
     correct = select_original_examples(rows, class_names, original_predictions, True)
     errors = select_original_examples(rows, class_names, original_predictions, False)
@@ -263,6 +301,7 @@ def save_plots(output, conditions, results, class_names, example, baseline, rows
     fig.savefig(output / "predictions.png", dpi=200)
     plt.close(fig)
 
+    # these paired examples show how brightness changed individual predictions
     changed_examples = select_changed_examples(rows, class_names, ordered, results)
     fig, axes = plt.subplots(max(1, len(changed_examples)), 2, figsize=(8, 3 * max(1, len(changed_examples))), squeeze=False)
     if not changed_examples:
@@ -291,6 +330,8 @@ def save_plots(output, conditions, results, class_names, example, baseline, rows
     fig.tight_layout()
     fig.savefig(output / "changes.png", dpi=200)
     plt.close(fig)
+    save_compact_changes(output / "changes-compact.png", changed_examples,
+                         results, class_names, rows, split)
 
 
 def main():
@@ -308,6 +349,7 @@ def main():
     except ValueError as exc:
         parser.error(str(exc))
 
+    # use one selected manifest and checkpoint for every brightness condition
     rows = read_manifest(f"{args.split}.csv")
     checkpoint = torch.load(args.checkpoint, map_location="cpu", weights_only=True)
     class_names = checkpoint["class_names"]
@@ -321,6 +363,7 @@ def main():
     class_to_index = {name: index for index, name in enumerate(class_names)}
     args.output.mkdir(parents=True, exist_ok=False)
 
+    # calculate the baseline from training labels, not from evaluation labels
     training_counts = Counter(row["label"] for row in read_manifest("model_train.csv"))
     majority = max(sorted(training_counts), key=training_counts.__getitem__)
     baseline = {
@@ -334,6 +377,7 @@ def main():
     else:
         print("Test results are final only if the model and settings were chosen before viewing them.", flush=True)
     print(f"Majority baseline (always {majority}): {baseline['accuracy']:.1%}", flush=True)
+    # evaluating the same rows each time makes conditions directly comparable
     results = {}
     for name, brightness in conditions:
         transform = ImageCondition(weights.transforms(), brightness)
@@ -359,6 +403,7 @@ def main():
             print(f"  {label} recall: {recall:.1%}" if recall is not None
                   else f"  {label} recall: undefined (no examples)", flush=True)
 
+    # record hashes so the model and data split used for these results can be checked
     report = {
         "split": args.split,
         "checkpoint": str(args.checkpoint.resolve()),

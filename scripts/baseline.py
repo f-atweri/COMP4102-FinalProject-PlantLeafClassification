@@ -18,6 +18,7 @@ def main():
     training_labels = read_labels("model_train.csv")
     validation_labels = read_labels("validation.csv")
 
+    # this gives us a simple reference that always predicts the most common training class
     counts = Counter(training_labels)
     prediction = max(sorted(counts), key=counts.__getitem__)
     validation_counts = Counter(validation_labels)
@@ -26,6 +27,7 @@ def main():
     print(f"Most common training class: {prediction}")
     print(f"Validation accuracy: {correct}/{len(validation_labels)} = {correct / len(validation_labels):.1%}")
     print("\nRecall by class:")
+    # show which classes the majority prediction misses completely
     for label, count in sorted(validation_counts.items()):
         class_correct = count if label == prediction else 0
         print(f"{label}: {class_correct}/{count} = {class_correct / count:.1%}")

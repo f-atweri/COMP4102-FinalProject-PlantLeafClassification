@@ -44,12 +44,15 @@ def main():
         if args.history.exists():
             raise FileExistsError(f"{args.history} exists; choose a new history file.")
 
+    # keep initialization and shuffled batches repeatable for this run
     torch.manual_seed(args.seed)
+    # train on the model-training manifest and use validation only to choose a checkpoint
     train_rows = read_manifest("model_train.csv")
     validation_rows = read_manifest("validation.csv")
     class_names = sorted({row["label"] for row in train_rows})
     class_to_index = {name: index for index, name in enumerate(class_names)}
 
+    # use the preprocessing paired with the pretrained imagenet weights
     weights = MobileNet_V2_Weights.DEFAULT
     transform = weights.transforms()
     train_dataset = LeafDataset(train_rows, class_to_index, transform)
@@ -61,6 +64,7 @@ def main():
     validation_loader = DataLoader(validation_dataset, batch_size=args.batch_size)
 
     model = mobilenet_v2(weights=weights)
+    # reuse the pretrained visual features and learn only the four-class output layer
     for parameter in model.features.parameters():
         parameter.requires_grad = False
     model.classifier[1] = nn.Linear(model.last_channel, len(class_names))
@@ -118,6 +122,7 @@ def main():
                 flush=True,
             )
 
+        # save the best validation checkpoint, not automatically the last epoch
         if accuracy > best_accuracy:
             best_accuracy = accuracy
             args.checkpoint.parent.mkdir(parents=True, exist_ok=True)
@@ -133,6 +138,7 @@ def main():
                 },
             }, args.checkpoint)
             print(f"  Saved best model to {args.checkpoint}", flush=True)
+    # keep the epoch-by-epoch loss and validation accuracy for later comparison
     if args.history is not None:
         args.history.parent.mkdir(parents=True, exist_ok=True)
         with args.history.open("x", encoding="utf-8", newline="") as file:

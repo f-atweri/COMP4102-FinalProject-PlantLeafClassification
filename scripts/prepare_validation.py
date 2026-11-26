@@ -10,6 +10,7 @@ SEED = 42
 
 
 def main():
+    # split only the training portion; the test manifest stays untouched
     with (SPLIT_DIR / "train.csv").open(encoding="utf-8", newline="") as file:
         reader = csv.DictReader(file)
         if reader.fieldnames != list(FIELDS):
@@ -19,6 +20,7 @@ def main():
     if not rows:
         raise ValueError("train.csv has no images")
 
+    # keep every image of a leaf together so related images cannot cross splits
     groups_by_class = {}
     leaf_labels = {}
     image_paths = set()
@@ -36,6 +38,7 @@ def main():
         leaf_labels[leaf_id] = label
         groups_by_class.setdefault(label, {}).setdefault(leaf_id, []).append(row)
 
+    # a fixed seed makes the same leaf groups land in each split on reruns
     random = Random(SEED)
     model_train_rows = []
     validation_rows = []
@@ -54,6 +57,7 @@ def main():
         validation_rows.extend(class_validation)
         print(f"{label}: train={len(class_train)}, validation={len(class_validation)}")
 
+    # training uses model_train.csv; validation is kept for model selection
     for filename, split_rows in (
         ("model_train.csv", model_train_rows),
         ("validation.csv", validation_rows),

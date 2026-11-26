@@ -9,7 +9,7 @@ LEAF_MAP = DATASET.parent.parent / "leaf-map.json"
 TRAIN_FRACTION = 0.8
 SEED = 42
 
-# black rot images use a different class name in the leaf map.
+# black rot images use a different class name in the leaf map
 MAP_LABELS = {"Apple___Black_rot": "Apple_Frogeye Spot"}
 
 
@@ -24,11 +24,13 @@ def main():
     if not class_dirs:
         raise ValueError(f"No class directories found under: {DATASET}")
 
+    # use one fixed seed so the group assignment can be recreated
     random = Random(SEED)
     train_rows = []
     test_rows = []
 
     for class_dir in class_dirs:
+        # collect images by leaf before splitting, rather than splitting images individually
         groups = {}
         map_label = MAP_LABELS.get(class_dir.name, class_dir.name)
         images = sorted(
@@ -56,6 +58,7 @@ def main():
             row = (image.relative_to(PROJECT_DIR).as_posix(), class_dir.name, leaf_id)
             groups.setdefault(leaf_id, []).append(row)
 
+        # keep about one fifth of each class's leaves aside for final testing
         leaf_ids = sorted(groups)
         if len(leaf_ids) < 2:
             raise ValueError(f"Need at least two leaf groups in: {class_dir}")
@@ -68,6 +71,7 @@ def main():
         test_rows.extend(class_test)
         print(f"{class_dir.name}: train={len(class_train)}, test={len(class_test)}")
 
+    # save the first split so validation can later be taken from its training portion
     SPLIT_DIR.mkdir(parents=True, exist_ok=True)
     for filename, rows in (("train.csv", train_rows), ("test.csv", test_rows)):
         with (SPLIT_DIR / filename).open("w", newline="", encoding="utf-8") as file:

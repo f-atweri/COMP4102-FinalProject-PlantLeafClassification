@@ -1,3 +1,11 @@
+""" 
+Dataset: PlantVillage apple images
+Mohanty, Hughes, and Salathé (2016), Using Deep Learning for
+Image-Based Plant Disease Detection.
+https://doi.org/10.3389/fpls.2016.01419
+Dataset source: https://github.com/spMohanty/PlantVillage-Dataset
+"""
+
 import csv
 from PIL import Image
 import torch
@@ -10,6 +18,7 @@ IMAGE_SIZE = 128
 
 
 def read_manifest(filename):
+    # the manifest tells us which image and label belong to each split
     with (SPLIT_DIR / filename).open(encoding="utf-8", newline="") as file:
         reader = csv.DictReader(file)
         if reader.fieldnames is None or not {"image_path", "label"} <= set(reader.fieldnames):
@@ -39,12 +48,14 @@ class LeafDataset(Dataset):
         row = self.rows[index]
         image_path = PROJECT_DIR / row["image_path"]
         with Image.open(image_path) as image:
+            # convert images to the three color channels expected by the model
             image_tensor = self.transform(image.convert("RGB"))
         label = self.class_to_index[row["label"]]
         return image_tensor, label
 
 
 def main():
+    # use the same label-to-number mapping for both training and validation
     train_rows = read_manifest("model_train.csv")
     validation_rows = read_manifest("validation.csv")
     class_names = sorted({row["label"] for row in train_rows})
@@ -54,6 +65,7 @@ def main():
         print(f"  {index}: {name}")
 
     for name, rows in (("Training", train_rows), ("Validation", validation_rows)):
+        # load one small batch to check that images and labels can be read
         dataset = LeafDataset(rows, class_to_index)
         generator = torch.Generator().manual_seed(42)
         loader = DataLoader(dataset, batch_size=8, shuffle=True, generator=generator)
