@@ -9,6 +9,11 @@ Image-Based Plant Disease Detection.
 https://doi.org/10.3389/fpls.2016.01419
 Dataset source: https://github.com/spMohanty/PlantVillage-Dataset
 
+Name And Student Id (Group 20): 
+Fatima Atweri (101259778)
+Menna Migbar (101311712)
+Liyana Eramasrayillath Najeer (101316968)
+
 Files and folders
 
 - scripts\ contains the data inspection, splitting, training, and evaluation scripts.
